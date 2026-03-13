@@ -1,0 +1,25 @@
+{
+  "amounts": {
+    "baseAmountIn": 1000000,
+    "otherAmountMin": 900000,
+    "quoteAmountIn": 1000000
+  },
+  "poolConfig": {
+    "authority": "REPLACE_WITH_DEVNET_AUTHORITY",
+    "baseVault": "REPLACE_WITH_DEVNET_BASE_VAULT",
+    "lpMint": "REPLACE_WITH_DEVNET_LP_MINT",
+    "marketEventQueue": "REPLACE_WITH_DEVNET_MARKET_EVENT_QUEUE",
+    "marketId": "REPLACE_WITH_DEVNET_MARKET_ID",
+    "openOrders": "REPLACE_WITH_DEVNET_OPEN_ORDERS",
+    "poolId": "REPLACE_WITH_DEVNET_POOL_ID",
+    "poolType": "Standard",
+    "programId": "REPLACE_WITH_DEVNET_RAYDIUM_PROGRAM",
+    "quoteVault": "REPLACE_WITH_DEVNET_QUOTE_VAULT",
+    "targetOrders": "REPLACE_WITH_DEVNET_TARGET_ORDERS"
+  },
+  "userTokenAccounts": {
+    "baseTokenAccount": "REPLACE_WITH_WALLET_BASE_TOKEN_ACCOUNT",
+    "lpTokenAccount": "REPLACE_WITH_WALLET_LP_TOKEN_ACCOUNT",
+    "quoteTokenAccount": "REPLACE_WITH_WALLET_QUOTE_TOKEN_ACCOUNT"
+  }
+}

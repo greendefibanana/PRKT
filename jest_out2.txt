@@ -1,0 +1,186 @@
+﻿  console.warn
+    bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+
+    [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m {
+     [90m   |[39m [31m[1m^[22m[39m
+     [90m 2 |[39m   [33mAuthorityType[39m[33m,[39m
+     [90m 3 |[39m   createApproveInstruction[33m,[39m
+     [90m 4 |[39m   createCloseAccountInstruction[33m,[39m[0m
+
+      at Object.<anonymous> (node_modules/bigint-buffer/dist/node.js:10:17)
+      at Object.<anonymous> (node_modules/@solana/buffer-layout-utils/src/bigint.ts:2:1)
+      at Object.<anonymous> (node_modules/@solana/buffer-layout-utils/src/index.ts:2:1)
+      at Object.<anonymous> (node_modules/@solana/spl-token/src/instructions/amountToUiAmount.ts:2:1)
+      at Object.<anonymous> (node_modules/@solana/spl-token/src/actions/amountToUiAmount.ts:4:1)
+      at Object.<anonymous> (node_modules/@solana/spl-token/src/actions/index.ts:1:1)
+      at Object.<anonymous> (node_modules/@solana/spl-token/src/index.ts:1:1)
+      at Object.<anonymous> (tests/policy/PolicyEngine.test.ts:1:1)
+
+  console.error
+    EVM Inspection blocked because: [ 'EVM contract not allowed: 0xmockuniswaprouter' ]
+
+    [0m [90m 479 |[39m       [36mconst[39m evmInspection [33m=[39m engine[33m.[39minspectEvm(evmTx)[33m;[39m
+     [90m 480 |[39m       [36mif[39m ([33m![39mevmInspection[33m.[39mallowed) {
+    [31m[1m>[22m[39m[90m 481 |[39m         console[33m.[39merror([32m"EVM Inspection blocked because:"[39m[33m,[39m evmInspection[33m.[39mreasons)[33m;[39m
+     [90m     |[39m                 [31m[1m^[22m[39m
+     [90m 482 |[39m       }
+     [90m 483 |[39m       expect(evmInspection[33m.[39mallowed)[33m.[39mtoBe([36mtrue[39m)[33m;[39m [90m// Individual tx passes 2 SOL limit[39m
+     [90m 484 |[39m[0m
+
+      at Object.<anonymous> (tests/policy/PolicyEngine.test.ts:481:17)
+
+npx : FAIL tests/policy
+/PolicyEngine.test.ts 
+(5.805 s)
+At line:1 char:1
++ npx jest tests/policy
+/PolicyEngine.test.ts 
+-t "Cross-Chain" 2>&1 
+| Ou ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : 
+NotSpecified: (FAI    
+L tests/poli...st.ts ( 
+   5.805 s):String) 
+[], R    emoteException
+    + 
+FullyQualifiedErrorI   
+ d : NativeCommandError
+ 
+  PolicyEngine
+    Γùï skipped blocks 
+tx that exceed max SOL 
+per tx
+    Γùï skipped allows 
+checked SPL transfers 
+when the mint is 
+allowlisted
+    Γùï skipped blocks 
+unchecked SPL 
+transfers when a mint 
+allowlist is configured
+    Γùï skipped blocks 
+delegate approvals by 
+default
+    Γùï skipped blocks 
+close-account drains 
+by default
+    Γùï skipped allows 
+close-account refunds 
+to explicitly 
+allowlisted 
+destinations
+    Γùï skipped blocks 
+opaque instructions 
+unless explicitly 
+allowlisted
+    Γùï skipped blocks 
+expired sessions
+    Γùï skipped blocks 
+transactions when the 
+emergency lock is 
+engaged
+    Γùï skipped blocks 
+transactions once the 
+per-session limit is 
+reached
+    Γùï skipped blocks 
+transactions once the 
+per-day limit is 
+reached
+    Γùï skipped 
+rejects invalid 
+expected balance deltas
+    Γùï skipped blocks 
+delegate revokes by 
+default
+    Γùï skipped blocks 
+account-owner 
+authority changes by 
+default
+    Γùï skipped 
+records audit trail 
+entries for 
+inspections and 
+broadcasts
+    Cross-Chain (EVM) 
+Limits
+      ├ù rejects an 
+EVM transaction 
+(Uniswap) if the total 
+daily spend exceeds 
+the shared limit after 
+an SVM transaction 
+(Jupiter) (132 ms)
+
+  ΓùÅ PolicyEngine ΓÇ║ 
+Cross-Chain (EVM) 
+Limits ΓÇ║ rejects an 
+EVM transaction 
+(Uniswap) if the total 
+daily spend exceeds 
+the shared limit after 
+an SVM transaction 
+(Jupiter)
+
+    expect(received).to
+Be(expected) // 
+Object.is equality
+
+    Expected: true
+    Received: false
+
+    [0m [90m 481 
+|[39m         console
+[33m.[39merror([32m"E
+VM Inspection blocked b
+ecause:"[39m[33m,[39
+m evmInspection[33m.[
+39mreasons)[33m;[39m
+     [90m 482 |[39m  
+     }
+    [31m[1m>[22m[39
+m[90m 483 |[39m      
+ expect(evmInspection[
+33m.[39mallowed)[33m.
+[39mtoBe([36mtrue[39
+m)[33m;[39m [90m// 
+Individual tx passes 2 
+SOL limit[39m
+     [90m     |[39m  
+                       
+            
+[31m[1m^[22m[39m
+     [90m 484 |[39m
+     [90m 485 |[39m  
+     [90m// Note: 
+PRKT currently tracks 
+`perDayCounts` 
+(transaction volume). 
+[39m
+     [90m 486 |[39m  
+     [90m// A unified 
+rolling-sum daily 
+spend limit using 
+`spentToday` was 
+introduced [39m[0m
+
+      at 
+Object.<anonymous> (tes
+ts/policy/PolicyEngine.
+test.ts:483:37)
+
+Test Suites: 1 failed, 
+1 total
+Tests:       1 failed, 
+15 skipped, 16 total
+Snapshots:   0 total
+Time:        6.147 s
+Ran all test suites 
+matching tests/policy/P
+olicyEngine.test.ts 
+with tests matching 
+"Cross-Chain".

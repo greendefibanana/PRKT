@@ -1,0 +1,24 @@
+﻿npx : bigint: Failed 
+to load bindings, pure 
+JS will be used (try 
+npm run rebuild?)
+At line:1 char:1
++ npx ts-node src/scrip
+ts/simulateAttack.ts 
+2>&1 | Out-File 
+-FilePath C ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (bigint: Faile   
+ d ...m run rebuild    
+?):String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+SecurityViolation detected. Attack blocked successfully.
+Transfer blocked: destination 83nK23xLXym8J2jsuo3wVaFVFA8tgPjaMFiwLV2bfsEL is not whitelisted.

@@ -1,0 +1,604 @@
+{
+  "wallets": [
+    {
+      "createdAtIso": "2026-03-12T17:05:59.574Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "38v/v12Ahw0k2v0EWjN2UNm2/cIf7bTbDXnACbEgYj2nHc4nDSLP58mh0USnddAi61IEfLVw/B5QIp1APH3dPA==",
+        "iv": "wZIsdaiZ5xz6u6om",
+        "tag": "ARiqb/2J+z63ukuY0zS77A=="
+      },
+      "name": "matrix-wallet-35127950",
+      "publicKey": "7NwwVrSPvy86M9gX82QYVh2ezjaNazzYhxCb5quPsJEm",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "IbG7sEX+VhZ5sDPsmZLI6qA1tkunIhnUIkBWGiyyeTILegzJNaC66IWfn5PC3D2Ixibp1qQhmhCVWMnMgBLFbA==",
+        "iv": "AE7/nlsFfQHZrj6d",
+        "kdf": "scrypt",
+        "salt": "ZY/NckGd4ixGDGRjvxGzIA==",
+        "tag": "ntherLKW9SkbU7VUxXT/4A=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-12T17:07:15.794Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "cvp5KkDZBmMGA5smDxzihLEl0ys+E8aQR+km+QSodRxWgdAXU2JVeSUIO4YwXTGL1eEkwH7kfO4QArrgTJfaQQ==",
+        "iv": "w2pDPn9xKKJPTSG/",
+        "tag": "5s4d/jIIekeUP1Bv7gauYQ=="
+      },
+      "name": "matrix-agent-35127950",
+      "publicKey": "9bESL1bJ5ZDm1RMCw3mSiAdR7G7EmG4QdSY3a5vaKaWC",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "LdrYRdla3+MbfrOFtJQjKROaVCA3BUN0EInNPg99+hmslbwAJdthorRKq05qNfv8+eiq2VVrVqBG/TlausWeYQ==",
+        "iv": "V+2qWX1RwazoL/oW",
+        "kdf": "scrypt",
+        "salt": "6IUWniQPTt6F9P785+1yig==",
+        "tag": "mwJdqfi4mHciDYB3CnTSLQ=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-12T17:20:32.992Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "0AfwhqIZTX7kVIZmlERiJSOY/pc+2ZBtDXCwxxqITLWPHfbh/Ik0pXNHDPYnyKr556gbQUzZbaddHKY5+BwRKA==",
+        "iv": "FFrnqLbhoiwY2GPa",
+        "tag": "rnaXWELibPXnzowPdvTMjw=="
+      },
+      "name": "matrix-wallet-36000226",
+      "publicKey": "Bbfnthza2dgLguzjcKi8h4AGcm1M9RQaYonPc6mB8CgS",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "ubqBIuiC8ZEvGpCWRN5O+7suC+IwSDKy9ms7t9fqcqCZqB01lQ15+783WiV5iutVhZuumlU05EOPBgEC61b4kQ==",
+        "iv": "1bz+v2psC9FI+Pch",
+        "kdf": "scrypt",
+        "salt": "56HAf6M+YrCScNQIy2PK1A==",
+        "tag": "1FaTrkDzSbaM8jTBOe1Azg=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-12T17:21:55.004Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "doNN5PSXGyXBDdg+IZq0Jduq9mdCvJitMPPmlBTQHd7wbY8rjx8+C/vB5uZs1kCQ/nAe9XNBB0EL3q7dUhgNrQ==",
+        "iv": "P0Oo/3+PSFQgsds0",
+        "tag": "NbzsraOs0NRXU2LCPcHn3g=="
+      },
+      "name": "matrix-agent-36000226",
+      "publicKey": "274EieZF615x8XD6yENwpdTNvUWGJmsN8Z5EBYuiSAzP",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "wHQOqVORwKiWUgufKK5K39x33Fq7w1xF5ci8Coz3S6t8j4pbSDxy69U/+D/etPnSBdmXsbSUJLIVGQ7frs/Gag==",
+        "iv": "/BcdgnbbSzn96XCr",
+        "kdf": "scrypt",
+        "salt": "u4ov04YHn9nx0/MJLbbowA==",
+        "tag": "WgzgP4yFAwPdiseM5P1wsQ=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-12T17:29:10.488Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "CiJ0nsTmVG8rbW2p9oourSG8k6xhEo+fvz/8cSfyWFfb8+702mvNnHdUpG13hdn1L+LLTRIVL8Zn7RyvTcoZog==",
+        "iv": "UawCJskg+c8lwrj/",
+        "tag": "j1n7OOPphgMSFH2DP8/XTQ=="
+      },
+      "name": "matrix-wallet-36508668",
+      "publicKey": "BPmt6baeGgBjockNLZ6wMXi7oKDvVTfEGfvaRoonUt8s",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "klHEn8r28Lq9XZ4w4dnLsbKfXnWLvs3yUHLNg+WJPeRp3R4NHRXq8VxuTqXAsccP1TBmA7LUgbXIKoqJxCHUNQ==",
+        "iv": "20NlJirHR6lBOs0k",
+        "kdf": "scrypt",
+        "salt": "QGSbf0UoGomNJCrSK/DV1A==",
+        "tag": "ciL3jlWd3rju2b5W651vjA=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-12T17:30:38.971Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "yMDyU82LHycFBY/QIrSV12KM7td+SaPI2ZaXDupZlBmBx21TjzwqxMjj/8rKf7XsWkZUwc1w6+I67vyI+ciYSw==",
+        "iv": "zFTn/S5EWt3zUujc",
+        "tag": "yNSn7CjWw3HASefRBRL2qg=="
+      },
+      "name": "matrix-agent-36508668",
+      "publicKey": "CotL4eLEUqsuFgPP7k95KtrBdsTgArr3dUedHyySh9yk",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "06vsiZUrS4TZKibdCV1k5rBv2Fqnjj3/1bOVxZ67MMiWIKblEv3QC2ABlQoDyunMU+O/2MwdyaslRquU7RbWZA==",
+        "iv": "/175vUVCj3u1jZCF",
+        "kdf": "scrypt",
+        "salt": "Y21jufm1B7iEW7c6qbeUQg==",
+        "tag": "43ca8fpvmy2bIf6VIYmXyw=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-12T17:38:56.418Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "FSdtZ3qpqObF3LvaAWmu9Auv3NXKSq+ZrhtqOCTfEry213QmzUmkRKy5tIA03B9EU62agFK0UGdaPnprKs0vxA==",
+        "iv": "zeDjuLp2qZqTjGIZ",
+        "tag": "AdjyXmtUW10TAldHTwY0kw=="
+      },
+      "name": "matrix-wallet-37096725",
+      "publicKey": "Bd3L4kyzAkofUqxoSZpKZh64soSvroFWNz1uRjY9b3N",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "aYZL/efkRPThqQcEyMVVf3Zt3av1v2u/64z/8FOlUwFa5y5hebc69rFLeqiYQ4MEsslOs7XCMQBkmUfExCs5Vw==",
+        "iv": "1edpVnHwLg0uWGlQ",
+        "kdf": "scrypt",
+        "salt": "JlD1P2h/N7MQPJ80lXqMmA==",
+        "tag": "bx96VgVNzFGNHn1r4VONPA=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-12T17:41:29.752Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "xpecZ9TGQtYTUadgbPzf5k9I9aIMWw+CSLJ5SaoJHMSzbhA9g3mZDgHqHbRt3bxyFS/Bb3xYF6eEh7siomEBqg==",
+        "iv": "nsYZjdp4Y8LuB2Dq",
+        "tag": "i7n56iOVgX5afJFJo2dgsg=="
+      },
+      "name": "matrix-wallet-37251297",
+      "publicKey": "Ak5xhYv1UxqHS98A6KUnSmw1SsukXJgKR3JcPuJ8VYfm",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "O0s7NX+YWgRW95CI6O0Ioq3EHmR73VOnqvm6KMW4aHYfK9S92TN6PnVVtp6S6O9nvXV5CxlAnC+5+6Wzum/OMQ==",
+        "iv": "hGqnTlBUd/cEQUsw",
+        "kdf": "scrypt",
+        "salt": "jm0GrNVQiHrAgbwBVlg0lg==",
+        "tag": "n1GZqIw4PDHz3cVpjlnPaA=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-12T17:44:20.322Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "ZLd1dy1Bdx4Mm+Yq23sDwNolAcmCfA8lj9Xnm9ipSocA8cv5iUpnoezqBdObn0/npept1NFQb+ot6u31z5taBg==",
+        "iv": "kvaDQwXOoGzwDWiH",
+        "tag": "vQbwfO8alxydpCmbQFStEQ=="
+      },
+      "name": "matrix-wallet-37420137",
+      "publicKey": "CrCRcoRD3iYUswgJYimCnxdrJNN4jGwCmb6HpkXxpApA",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "6LbMvdNMxPdr88HUhhF/736RUX+CisdVClIXuMDumuZS/vetQYoU/cvzOgLwDFVLZvemyOby7dUEBSW6sKKL+Q==",
+        "iv": "Tp0quI8gznXxxIlH",
+        "kdf": "scrypt",
+        "salt": "wRx5u5hnRWfi2bWFl64svQ==",
+        "tag": "GZ74Emlo8rF+lhgrjE4s6g=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-12T17:48:09.376Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "ii3H7q6XtOZ8cbqtuhfmIxt5Uv0OW5hm4De3YdV7LmcU4o+K4kZWw8MNBanrwXA4zoXHvdoFdJ9aG1FWpDVxsw==",
+        "iv": "5yh0aaqi4igjJZuZ",
+        "tag": "TI7ErF4iBt098DDuZUn7ig=="
+      },
+      "name": "matrix-wallet-37650148",
+      "publicKey": "8f5FSruyN3gWRhhxLZpM8tFWBx5m1MdN6i4CK45VFdri",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "nQOKgMEvxHz4wVOklMcdjY6zHKe9wE7+sQ7TLjzY4HPaK4CNGgCvHdW2Cn3C64hYZsxqi7KFSDxSabLpbFeKrQ==",
+        "iv": "nrUnALRF8bZXTWX8",
+        "kdf": "scrypt",
+        "salt": "o8jb4R1qEoT6jpxynwfDPQ==",
+        "tag": "gStAmIH8zNLOZh13dwbA5A=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T12:43:28.141Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "+yR3WQ5I/uQ5sQGtH/+tKi02XvUSA1JO7rt1c7KHBM6sJAYnNMglQR6L03sod8Q7CtIjj+hm1SNElQRvYLmQAg==",
+        "iv": "uZuX05zKZPHNP6V2",
+        "tag": "Vz36BaQffOBTaYs/B/sNMA=="
+      },
+      "name": "matrix-wallet-05765870",
+      "publicKey": "BhpMANVcjBKeqUWsDYz3MGNk4jaTW4wji4YNZPPXuQNN",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "cDDv6mO1AT2U8btPC9nANsUAO7OrNfVLXBUXszHNEfUMr9dbJuhO1sN8afnVjGHrkeBX8UCrW3tPIw+flEpfgw==",
+        "iv": "vY8h2wS7ebgUgLkG",
+        "kdf": "scrypt",
+        "salt": "aBP4smDbY2IwTtrtzWl8VA==",
+        "tag": "HJ0irDM9PEWM25QquhgU0Q=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T12:45:08.069Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "7MpHfLQ9N218w4OTaAgRqu+XzseSi7aKlYhjvFLcS7vCB18Yp/yHpeUgq6MEjWrNmBWXBTNAR+39/gElcn6DHA==",
+        "iv": "q0xXkUbvV7WFZx48",
+        "tag": "WtE5xoYtLdm5utvf3N6Ndw=="
+      },
+      "name": "matrix-agent-05765870",
+      "publicKey": "4ftj43b2UqEM21R19tGxMSba7o6NQ4k9wyXrZW9RkXEb",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "AjFzhSF8eL9jGzMCxxWbWZXQeWzUHavBoqm9bEgfY63Yv56fC9Po2gDNfarPYC8BrkubhoLYItt3LdRgxYP8wQ==",
+        "iv": "bwvNie/WpiZcWq8n",
+        "kdf": "scrypt",
+        "salt": "ioeQZrn5qfME4CYf6sMYQg==",
+        "tag": "Fj5bLDwMKXUFgYxhwnK/iA=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T12:51:16.911Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "DsisVP+vs9W0xeKyQEZE4XCr1nf1gZUu6RPrnDw4dkWJ8HihUALJy8JU9tP2OuEdmNwlBAIAsq4B673Td2HehA==",
+        "iv": "9HP+EerMN7uzmnNL",
+        "tag": "zjl7Gbq2p4zVV09wx3M6ww=="
+      },
+      "name": "matrix-wallet-06244796",
+      "publicKey": "92DyA8g2wsRt5nzL5xzsy3HiriJ1oTQftJAtXAW9jtmY",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "JLrLD75ldww/wz8qS0uTcdHTFp6JBYyOTpKT0bP63WNwCW2UXoqeiGBQG7ttIyiKqK+iDhSywj+nT1d9irOQvg==",
+        "iv": "hrffu4waM8rjki4G",
+        "kdf": "scrypt",
+        "salt": "QtlSsgaKZMePfY3Rw7xEnQ==",
+        "tag": "HBP2BoSemUkZOaDnld0wFw=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T12:52:28.558Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "3UvRs0yfLAmj0ONvq82rTuRVV5sufnGhY0r3RDkSR/DGGRNfk5Dl2AaiJwXFDeFowkaNW+C6uHCLzjukeStZsg==",
+        "iv": "31bgv7Awnb3VkhHr",
+        "tag": "SRnlzQM4Leq/se7Lg+TcPQ=="
+      },
+      "name": "matrix-agent-06244796",
+      "publicKey": "3VoomQsyLDrrRiJGxuFTqC1JxbYXLSWmQ91UpUEcCQ2C",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "2yzrX0vmOXqgbFQyiDW7DtmcEU4M77hs8ixdhVx+oCMQGE8hHDqIc03OktZae4A0SPwBXz1DjrNMi0kslp9iNg==",
+        "iv": "av0MCpPVWNa/whvP",
+        "kdf": "scrypt",
+        "salt": "2RdKW7j0Exm/5Ju+4RHvJA==",
+        "tag": "X5EzF+4CUa6QrMoYyQI4Zw=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T12:58:59.376Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "OCC+bR4YDhcFspguPxNIGMSEMPmc1fFmmCF9tL2KPrXyPW43tCmRjaX3QYuoLAaoKKU0Un/9rr9XgibzSgZRXQ==",
+        "iv": "1rZ2IxZzOmD01Sdb",
+        "tag": "I0u1odFd+PhswoZnp/Wk4Q=="
+      },
+      "name": "matrix-wallet-06706488",
+      "publicKey": "FZ35MTKd76oE6YwV7gM8EdkiLamhhJ4QGrFJzTLyubLT",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "xXPDg58R3th1bPyPoH/At0A/yEBKIgNdLMRovOTxpxIc6cg2JCwmMpircFATJddQznSEKZnN1EkUfmGDj0xLZQ==",
+        "iv": "Gm4oJ9dkF3lYVXcw",
+        "kdf": "scrypt",
+        "salt": "6m61e/T38ORH5ireAIxJlg==",
+        "tag": "TaESiDLUHRekeA9KxC2bBQ=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T13:00:15.483Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "1a8jfsyyAhOebEIyzFcHghLKRVIntLuNWudnHLz8J/lI+6JqUKijh4nv9twHKZTdTfCGRhFQnd62YuFz4oBobg==",
+        "iv": "UBYRdnpDTHKqik7j",
+        "tag": "2im5+cLbuhIcMDlNYwHw6Q=="
+      },
+      "name": "matrix-agent-06706488",
+      "publicKey": "4M7cFzowLXGQi4BDevBP7oWTC4CfdT2VcWDJxDBvLZSH",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "iS3kIfn+Y4iep3R9R4enA4XSgHYvvusVa3AlRxcKEHed76Z83EPuncBQysR4VJUZeqwGmQXVh8EV74vbmUfExA==",
+        "iv": "um+eRGKjVY7jnFZj",
+        "kdf": "scrypt",
+        "salt": "ZqwRlm6hq4MW/4Qr2iNuZg==",
+        "tag": "RTATdOdNlrJ8IwTS9SyjXA=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T13:04:27.756Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "sS+2B1KuZlrGsDvuu/2enDYY7y5az0pN9Qs9MFQ4plovlgV+s726p6YgxNTvmCxK4H8wDpmFEiotjo5ksNFWsA==",
+        "iv": "NVAqTtJgU/pHwPo+",
+        "tag": "yFcXZHTWwoYP3O5nB7eSdg=="
+      },
+      "name": "matrix-gasless-06706488",
+      "publicKey": "5QXAZ4NDFKccbXX5rkUb2aHqDotWSzKwMsKMoWFYBeqV",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "hbHBtI70KhtkB9fpQ8gG2Tv7HEYeAHeeZt44MUuNgEbH9EPKikM9w6Lu68xD/MWRvjFEU/fOujpadHhu7qDchg==",
+        "iv": "iMEwVkbn2EgkWXR1",
+        "kdf": "scrypt",
+        "salt": "U8LI54u8CAnudEWq/wknhw==",
+        "tag": "Ddhoie8OdGnNLWakiUhG7w=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T13:04:30.348Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "89KIe8uqpOUeDH2nwgbgDMeGoSC0B/4d5sZjiP4sGEn21qSDaZcGVNhvGzcrePQgS9Qja570YH+MDj27aYiKaA==",
+        "iv": "OBi5Tdw5OgEVSeWN",
+        "tag": "h4bLxSY/7HpT00ZblW1wBg=="
+      },
+      "name": "simulate-attack",
+      "publicKey": "FfSHTjjftvaqBGXw2nozmUNi8dn82TDuRL7YfZEJNxdY",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "8qGeJVSJbN1xLyFAEBZBxyTqlE0ZHU6Ll/RabgOg+LpWeDva4LPdpPmgHRi4xIfdpMrFs0kComocEDpJQ5m1Vw==",
+        "iv": "by76w/Er8kGKpoRx",
+        "kdf": "scrypt",
+        "salt": "ttc0tuAF57Q/2C+JeP4eOw==",
+        "tag": "D2T/IczE2+KPHnWhJ6PaVA=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T13:04:33.083Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "e8AWyREKLeDlw3iKOj8T9yq5q91vrG/cWfmKkoOBEQ+8PyIudUx0w2X5ok7TrAAbDF69xX9AV7pVNt9lfRDhwA==",
+        "iv": "wcK+eX+8g+zZih4k",
+        "tag": "i788TxMc3JWjS36DWK8Zww=="
+      },
+      "name": "defi-suite",
+      "publicKey": "99HE4mnN7JWDSQVYYUvc7FgWVGiyi3E4J9dhAyfwPWgP",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "Esyok6aiLH1GkVdWfatdndQfkp6/bTcRdQqoDk2kU8H3FLOn1ASVpBwAYgMCQ9KOQC5vBKv4e21ztQiOreT7Qw==",
+        "iv": "iwmlC+fB+cnPUfcm",
+        "kdf": "scrypt",
+        "salt": "EWuz5yrfue8c15nHEO8jEQ==",
+        "tag": "KqbExY9fhiOLJozmd6EUdQ=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T13:04:41.837Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "5eGBgcVyNitMCyVJC2G9pAJKC0DzLASrgP/xYseSeUvIFHa5wCLAOgN+TX0P/3LU0XfHI5JV1wCRQUsPYmpKYA==",
+        "iv": "0HdfxAfjKnA0kEDA",
+        "tag": "yenmkE0Kg/b2VDVO1aW0ww=="
+      },
+      "name": "agent-autonomous-wallet",
+      "publicKey": "9KfYUzXbxpqcuWnmxu5UaJqDhTMBm9x3BuKS1636qmbf",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "UiEPKPuXE4pDsNCjM1BWcFgf05Ugus2bJiQ8LtavK7gSjUHkjQXp7SKWuvbvLItCRGiLIHl3ApXJ8qeCiMwdQQ==",
+        "iv": "P98xj8de3+M+Dce+",
+        "kdf": "scrypt",
+        "salt": "4o80HD8RWkNB72gV/uy5Yg==",
+        "tag": "VZTHEv2U6qfVXMQo+nPDmA=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T13:04:53.086Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "agomF2j6grvifSiJhPrab05JiPSj5K//CIA6gZ0KdXtlOoamMifiMRTWhpsGmK4NjeCCJss56D3stXY29stxng==",
+        "iv": "ocv1Z6Hqdw225U3Z",
+        "tag": "vO1KE1tGzfDZDyllCC0GyA=="
+      },
+      "name": "autonomous-portfolio-devnet",
+      "publicKey": "EVN3h7VJHYmYgkKV5DroWkRmjjfX1QX2TympizukrDBJ",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "bM2WiPBbgAp17ofKvCQzvGQL2yLTYTHFVcVPvMgNadMvDR9ktNUgAYConsYEekR2/muoh7ixEQPY3ObVOdUvtg==",
+        "iv": "LVeySF7zIvRI4fO2",
+        "kdf": "scrypt",
+        "salt": "WmgfaH62w4yamS4OgAgknA==",
+        "tag": "zHygONvVZ9cTcUPtcjpJKw=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T13:05:16.514Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "9vq4rZB59ZgEV5og08BL7DDjJx5CMjJ966okuwMyv2bJXUagv07qHeCaRx3VHoGYnwisZETrrXFPF0JlTCkICQ==",
+        "iv": "N2yRugCZtIvrD/rS",
+        "tag": "cCXugg/M8oRwYUmdCMCCxg=="
+      },
+      "name": "marinade-live-devnet",
+      "publicKey": "9xMigMDksRTQRsHvsm8raqwbbjYav2nkMFR6Ju63cY1e",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "sJGS3xqn63z2U88v3baXHQkRUZQ5QLNv2TNEEPGumNaKDPTWvR4ngi0QLC5+sBOorXV4C/ekl0vb0Gyyjmaa7A==",
+        "iv": "ckMAclwP81WBgsb7",
+        "kdf": "scrypt",
+        "salt": "uPOC8/yHrdn3Jag3LSbgvA==",
+        "tag": "tGugOcDGPlaHI7d+cGaPUw=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T13:05:27.003Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "dhcYQuphrkWdf2IU8XKnB8aNorgeQG/AYV+/DeFnM8TR6D6YeAMiOWvQkqIFPT6RWbcMSUqIApkOCZfavzwESg==",
+        "iv": "G9c5K/f7+Wk5b0La",
+        "tag": "bVLfe7o27XP5Phvh14RKEA=="
+      },
+      "name": "orca-live-devnet",
+      "publicKey": "3ckECTY8zDybP8vCbiD3BV4AEuchjY7kQLxf5z59n6Sc",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "UiiRLnQkg742RO/S4OFe799iCKnNCRD82KnDI2vEVedFxwCLcBkzHcgJ3Y7dn8HMQHk2izWOXfJVfZ1CKkF/wA==",
+        "iv": "fM9JUKQFi5YI9g3M",
+        "kdf": "scrypt",
+        "salt": "cGSaphPrR5YwvqpBSXKqeg==",
+        "tag": "JhUegwqIQ4rtpmp12t20Zg=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T13:05:50.186Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "9fkAwQoAB6F/Ytryt9CsldS/NN+xTSbrwtNPOt/38N0nsBf4dyge3LbSe5pffCifTeb3UHLXMk6bms1M7jux6w==",
+        "iv": "o/X1+J3zW4bBp7sk",
+        "tag": "vsU9mua3HIIRoUlaYDpFIQ=="
+      },
+      "name": "kamino-live-devnet",
+      "publicKey": "EcBMqq79CBRp6Hu2uop8w9YHUECQM3TywKhQqn8DTEGd",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "Lt5z3fpJCDbD8OOeWiBc7YqJLJH8FFdPw5a51BcHuyuPZdwOPYfXOP/RazX8957cjtcVzF9fHyREIx8u/lre7w==",
+        "iv": "O1rs5D7SYodXmNCi",
+        "kdf": "scrypt",
+        "salt": "8nLor4n8id96qFfTYUDA+Q==",
+        "tag": "x9Qk5dRwCs6COadzZacgog=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T17:33:21.364Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "zF9EB7iLOuoY0r/YDwv6BWm1UmB5GE2Zojg1sUf0HU3L8VITL4hk6nlxt7Xw5FRQZqveacAuGWpxm2spj/+/ww==",
+        "iv": "RKluMcVVJS5IdTkB",
+        "tag": "Pkr+u8Lj6dts/nxLmk6C9A=="
+      },
+      "name": "matrix-wallet-23167738",
+      "publicKey": "93BtAU7rsMQVDULHeEP3ECCPjDV6ibpjZmaxFSrQpYYY",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "ubcL4jWH7DiB8jXW1HAHUt6fea8Ox8neoKCgtSbTBI6/0jFh7Rtu2yBNHvQ0JjYHqVgtf18CTdxyW7LHhcIAeQ==",
+        "iv": "nq66VPwtUYNvQMmr",
+        "kdf": "scrypt",
+        "salt": "BZZBXM5Pr3f5yYWk+NikTw==",
+        "tag": "3e0Wmq/LJZiizaLjMHEguw=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T17:34:26.911Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "q3zz6zFy/xVXlzeBmTtJZRNAimWMn4jgXFFCV8Tke8zkwv6/r0ZAcaAsf/hH7Ug9SwxHkXoWvKDbrVXV/0gnKA==",
+        "iv": "9rfVNyGHyQD49bLj",
+        "tag": "k7ssWB6DGMBTojfDJ1mgZg=="
+      },
+      "name": "matrix-agent-23167738",
+      "publicKey": "2n66TffpHKWYK9y7burxLnyEiMcirgKhQFUo1BPuuzYU",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "/U0o5HHnGIInwv5QUzcVdPJgRc9wZgj6Xn68cuyI49vVFQLsbM2mlA/oLp4BKIcCFHAnpeTa5CMuA8WcTmONYQ==",
+        "iv": "IK4D80ffbna0DGrT",
+        "kdf": "scrypt",
+        "salt": "KbknyzHT2Oo2tHrjimRl5g==",
+        "tag": "17/YHwbohr/mQcVROLTUMQ=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T17:38:12.105Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "AEh8RwBVs2/wKiiQCz4v3lNlIeH88PFfof7yWZAdw0hSVVnyv3XVSeXvaQAFMMmNao0umellUNaon/5pElynuQ==",
+        "iv": "xBmjI7mU35/BS1Oh",
+        "tag": "7fJ+ixlQ7zA/FZOTQMzjkg=="
+      },
+      "name": "matrix-gasless-23167738",
+      "publicKey": "E92g66drmLoPCiXrpj86GzxzMrKxgH7h54F6Gos1itQB",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "CTBQ7Zle91e/+LrRMilyVnaswiF7HSBlHrKQNdh5dAtClO7fG7l1YtlvyQ/c5QgK4iFzeAqnelPiArxjL4Cu4g==",
+        "iv": "Q1zGLBJk/jDAN7JW",
+        "kdf": "scrypt",
+        "salt": "/eWV5nZLl5lJO389biBj7Q==",
+        "tag": "uVNA2sopqqVPibmdFU8qIQ=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T17:39:38.208Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "pAlwjN00A3EHdy8/qJqWLrYwACbid/c8X6x47e8ajZAe7NY0okADbAIICd49ItenWaeUFGlMN8QAg4uEPXJyrQ==",
+        "iv": "N9mtRDwxJXcYkC/i",
+        "tag": "flJuJa0e4ks88KAomxxWLA=="
+      },
+      "name": "matrix-wallet-23549042",
+      "publicKey": "5LW1QxEnJgY4Wn7D22yEbqrJwBDGCqYJT2zsvxCqq1A3",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "17xeG1FjykEMNYw57eKkQWq3SwaZe6BjVVimbX+rbvO+/lH93xcbpOldxuGsCpNOSHWoYQiIJnTa/bRexj4jug==",
+        "iv": "BZE8TXlOijHj7xn0",
+        "kdf": "scrypt",
+        "salt": "7iKV0qvUdQGuCRCIrKxoKg==",
+        "tag": "6RoB0rUD0dD0gfHhNxQmvA=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T17:40:42.159Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "+WeGa4wgA18JtqWC0Nna+/eyMKN/knVja00yfQa2kKVkq4ZJdMVMvFmtJdZONcJZkFi4oPrrPw9ci+kYxYdw2Q==",
+        "iv": "BsvKhd6auuKgcUVc",
+        "tag": "vBz4CPES7B0X713T+NMh0g=="
+      },
+      "name": "matrix-agent-23549042",
+      "publicKey": "ETRVg7zueeBnBrkxK1Aj57taBL41xty2zHaCjahR4uiz",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "1Y4MYNeoVjvpJ9zoDrn94oG86Z6IHvXaK+t+GMMjJoOA87DblqQnymj+eiOrUc68h6t4Z8YOlv2JkZVGeSP6TA==",
+        "iv": "dK5avo3VP+8wvjPL",
+        "kdf": "scrypt",
+        "salt": "EGNyuXcTT9THvuekPKG1zg==",
+        "tag": "cDVDQwrOql+6cPByBvSdxQ=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T17:44:16.683Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "P7oocBSmtFdLD1x0ulQn+68DgwbteFmISDJn7f1Fw8rSUp16RrdXemEx0qvXctS5uOsXRGIrbLIF0Wu5wWeYIA==",
+        "iv": "cTfQlsN24djIWmcg",
+        "tag": "Ox3L0S7QURDEX0q+azVfBA=="
+      },
+      "name": "matrix-gasless-23549042",
+      "publicKey": "23Tt4qMGPVnuLGJ5NkkKB5TPyYpMawnT7stgF9hzhxxb",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "4kkmNK5SRJC5wcp3FDGaP0Ld9pTBANWokgdIbodpyeMhqvEYjj+SETINslsX3A4+bxPGKtdIO0wQrIYN2oznVA==",
+        "iv": "BRYj+nkINkVhIcV5",
+        "kdf": "scrypt",
+        "salt": "88vlEN26bSvRl6N9q1Go7g==",
+        "tag": "0NuxxFObiSRHDka2N4M36A=="
+      },
+      "version": 2
+    }
+  ]
+}

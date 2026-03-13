@@ -1,0 +1,47 @@
+import { DeFiCoordinator } from "../defi/DeFiCoordinator";
+import {
+  getManagedAgentName,
+  getManagedOwnerId,
+  logManagedAgentWallet,
+  resolveManagedAgentWallet
+} from "./managedAgentWallet";
+import { createKoraSigner, createRuntimeLogger } from "./shared";
+import { printDemoMode } from "./mode";
+
+const DEFAULT_AGENT_NAME = "yield-strategy";
+
+async function main(): Promise<void> {
+  printDemoMode("SIMULATED", "Protocol intent only (memo execution), not live Kamino instructions");
+
+  const managed = resolveManagedAgentWallet({
+    agentName: getManagedAgentName({ defaultAgentName: DEFAULT_AGENT_NAME, env: process.env }),
+    ownerId: getManagedOwnerId(process.env)
+  });
+  const coordinator = new DeFiCoordinator(
+    managed.walletManager,
+    createKoraSigner(),
+    createRuntimeLogger("yield")
+  );
+  logManagedAgentWallet(managed);
+
+  const result = await coordinator.runLendingStrategy({
+    healthFactor: 2.1,
+    idleUsdcAtomic: 5_000_000
+  });
+
+  console.log("Yield strategy complete.");
+  if (!result) {
+    console.log("No lending action executed.");
+    return;
+  }
+
+  console.log(`Protocol: ${result.protocol}`);
+  console.log(`Action: ${result.action}`);
+  console.log(`Signature: ${result.signature}`);
+}
+
+main().catch((error: unknown) => {
+  const message = error instanceof Error ? error.message : "Unknown error";
+  console.error(`Yield strategy failed: ${message}`);
+  process.exitCode = 1;
+});

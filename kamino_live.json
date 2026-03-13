@@ -1,0 +1,11 @@
+{
+  "actions": {
+    "borrowAmountRaw": "1000000",
+    "depositAmountRaw": "2000000"
+  },
+  "borrowMint": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+  "cluster": "devnet",
+  "depositMint": "So11111111111111111111111111111111111111112",
+  "marketAddress": "HqCoqWT42Qdg1fbsWFo6TNCkH6eSY2MtxHFEkPoBvCHm",
+  "programId": "KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD"
+}

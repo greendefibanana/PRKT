@@ -1,0 +1,37 @@
+﻿npx : bigint: Failed 
+to load bindings, pure 
+JS will be used (try 
+npm run rebuild?)
+At line:1 char:1
++ npx ts-node src/scrip
+ts/runDevnetWalletDemo.
+ts 2>&1 | Out-File 
+-FileP ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (bigint: Faile   
+ d ...m run rebuild    
+?):String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Mode: LIVE (Direct Solana transaction path (wrap SOL into wSOL))
+PRKT devnet wallet demo
+RPC: http://127.0.0.1:8899
+Wallet: EEpFBURVJLwK1WuQAbEFzTmhnhSCjHFy9fzqBjRTKFXY
+SOL balance: 5.0000 SOL
+wSOL balance: 0.0000 wSOL
+[36mReasoning: My wSOL liquidity is low for trading. I am initiating a 0.05 SOL wrap to maintain operational readiness.[0m
+Associated token account: HEgwKC8co63dL39ZPxWKcBAQxSUbZo78bN2wRhMfiVne
+Decision: wrap
+Created ATA this run: yes
+Wrapped amount: 0.05 SOL
+Transaction signature: 5rmbuFWe4Pbzp2Fdr1Kh6R4PGc3MzNGYJXRsdn4xz514SPQmMQRsfHxXpant3X3Wvpa3j6cwd1tPaShK9Na62C5w
+wSOL before: 0.0000
+wSOL after: 0.0500
+Post-check passed: wSOL balance increased.

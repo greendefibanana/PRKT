@@ -1,0 +1,35 @@
+﻿npx : bigint: Failed 
+to load bindings, pure 
+JS will be used (try 
+npm run rebuild?)
+At line:1 char:1
++ npx ts-node src/scrip
+ts/runUniversalDeFiDemo
+.ts 2>&1 | Out-File 
+-File ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (bigint: Faile   
+ d ...m run rebuild    
+?):String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Mode: SIMULATED (Universal DeFi compatibility mode (trade/lp/lending/borrowing/yield/staking routed by adapter registry))
+[runtime] Solana RPC: http://127.0.0.1:8899
+[runtime] Kora RPC: https://kora.devnet.lazorkit.com
+[runtime] Kora mock mode: true
+[runtime] Live swap path: false
+[runtime] Jupiter API: https://lite-api.jup.ag
+Universal DeFi run complete.
+trade/jupiter: trade 6434e40952ec208da2dd243e79b00f57ddefd581a7e7db7161e7c715ed6215ba
+staking/marinade: stake 5fe9317ea1def1d7210e4e134a0974123d5456523b510b29e37a8e8fae986bb1
+lp/raydium: add_liquidity 5511364d8614dbcfb44578a02f7f65c4f902bb05e8b1c885d28afd00d4dde261
+lending/kamino: deposit d9688b031e34007dfdbcff85e46d702259129a63610e629a960e6e3258af239d
+borrowing/kamino: borrow ef28a352d2c02cef2c17ee932d8f8b257c09f76a6f1f93ca6c3ebae289e8650d
+yield/kamino: deposit d9688b031e34007dfdbcff85e46d702259129a63610e629a960e6e3258af239d

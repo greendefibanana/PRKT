@@ -1,0 +1,1596 @@
+{
+  "records": [
+    {
+      "address": "13AuNwdD64ih92qWSD5i6se3f7i8aAsrFtc8WdYmv3tX",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b54504f4c31",
+      "explorerUrl": "https://explorer.solana.com/tx/565AqewGN8YduD7PQ21GXsZybwSLP2e39BxZmMMxjbnQWDGTFh7zeGRGvDZciDv2qSyfvzRwBAfb3PdnHYDNFciJ?cluster=devnet",
+      "namespace": "prkt-policy",
+      "parts": [
+        "devnet-agent-1773402181490",
+        "1773402183900"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773402181490",
+        "d": "2000000000",
+        "k": 0,
+        "l": [
+          "11111111111111111111111111111111"
+        ],
+        "r": 1773402183900,
+        "s": 60,
+        "t": "0",
+        "u": 1773402183900
+      },
+      "signature": "565AqewGN8YduD7PQ21GXsZybwSLP2e39BxZmMMxjbnQWDGTFh7zeGRGvDZciDv2qSyfvzRwBAfb3PdnHYDNFciJ",
+      "slot": 448185202,
+      "storedAt": 1773402189042
+    },
+    {
+      "address": "1rwvT7WXq2nHqwZwu65DYfLZ5rByStasutr1sLEf9pm",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453533031",
+      "explorerUrl": "https://explorer.solana.com/tx/3ecoTYiRZ6RoYEwBzgK8pbUm8DqCA2Nb3huBcVeGq68KEjmYTmsmEFkTGiR7XdUasQYxqLNnzcucnMsmexk9RmGM?cluster=devnet",
+      "namespace": "prkt-session-start",
+      "parts": [
+        "67b82a78-08e7-48c3-9dd4-debb89fcbb0f"
+      ],
+      "payload": {
+        "agentId": "devnet-agent-1773402181490",
+        "event": "SESSION_START",
+        "prkt": 1,
+        "sessionId": "67b82a78-08e7-48c3-9dd4-debb89fcbb0f",
+        "ts": 1773402189048
+      },
+      "signature": "3ecoTYiRZ6RoYEwBzgK8pbUm8DqCA2Nb3huBcVeGq68KEjmYTmsmEFkTGiR7XdUasQYxqLNnzcucnMsmexk9RmGM",
+      "slot": 448185215,
+      "storedAt": 1773402193767
+    },
+    {
+      "address": "13AmuwWeuKNd2agQpqm7qdyAAprjuaoSi2EB3fuBL2nh",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5450524631",
+      "explorerUrl": "https://explorer.solana.com/tx/3q24KiNUGfEXL7K1ChRde3UCRjG6oAaKmG9smxa53yiZUUjgQwuwmVRqepeyDKq2z9mcracymghKULV1KX9dmSgA?cluster=devnet",
+      "namespace": "prkt-proof",
+      "parts": [
+        "4eeS95PdVTTv1Q9Vkvsx2HMkooCa8hM3r3JwEceMrA2sTqPhRufgn88m7ncsp9PdzjXQ1Q4sjeeimf4PHQRDu5uN"
+      ],
+      "payload": {
+        "attestation": {
+          "agentId": "devnet-agent-1773402181490",
+          "checks": {
+            "allowlist": {
+              "passed": true,
+              "program": "11111111111111111111111111111111"
+            },
+            "killSwitch": {
+              "active": false,
+              "passed": true
+            },
+            "spendLimit": {
+              "limitLamports": "2000000000",
+              "passed": true,
+              "requestedLamports": "100000000",
+              "spentLamports": "0"
+            },
+            "ttl": {
+              "expiresAt": 1773405794199,
+              "now": 1773402194199,
+              "passed": true
+            }
+          },
+          "intentHash": "2ee1c259b2049eb5d702536d584cbba92a40d5ed4b857519a9e7d3b68312b74d",
+          "policyHash": "ae42200acff75bcff9ba09ba4cbc147342956ec21b7040f7a60b459a65b98a21",
+          "prover": "PRKT-LOCAL-v1",
+          "timestamp": 1773402194199
+        },
+        "publicKey": "24Tp1eWfzBKJKW72as9wL7XRaj49jhTZcpeZpp5nYZuV",
+        "signature": "djxERdGidb4O0WdzVa/2u3Bd23rGxipkcywA/oKnM3vKFfPslGt+QbLXvbe6fuEcUo65iTOdK0HI7YX6/92ACw==",
+        "txSignature": "4eeS95PdVTTv1Q9Vkvsx2HMkooCa8hM3r3JwEceMrA2sTqPhRufgn88m7ncsp9PdzjXQ1Q4sjeeimf4PHQRDu5uN"
+      },
+      "signature": "3q24KiNUGfEXL7K1ChRde3UCRjG6oAaKmG9smxa53yiZUUjgQwuwmVRqepeyDKq2z9mcracymghKULV1KX9dmSgA",
+      "slot": 448185234,
+      "storedAt": 1773402201028
+    },
+    {
+      "address": "13rznJ2UqdCE8c1zqaT7BryYA8biPd19DXFCobJFvaQh",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/3nMNK34RwUcYhNAMBCAA4wXyMAkJ1VoGBkc89fQH49jTFhz9eyJoVxTfveiktWnrswTPoT7vrzbXdSQ7L5Gs44Ep?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "devnet-agent-1773402181490",
+        "1773402201029",
+        "fb8c9fc911bba9cd656d082dbdcfd24c028fce50c7d63e499c5c9a65ae7db409"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773402181490",
+        "i": "EXECUTE",
+        "ok": 1,
+        "s": "success",
+        "t": 1773402201029,
+        "tx": "4eeS95PdVTTv1Q9Vkvsx2HMkooCa8hM3r3JwEceMrA2sTqPhRufgn88m7ncsp9PdzjXQ1Q4sjeeimf4PHQRDu5uN"
+      },
+      "signature": "3nMNK34RwUcYhNAMBCAA4wXyMAkJ1VoGBkc89fQH49jTFhz9eyJoVxTfveiktWnrswTPoT7vrzbXdSQ7L5Gs44Ep",
+      "slot": 448185248,
+      "storedAt": 1773402206615
+    },
+    {
+      "address": "12qVw8urJ4Rs7dFjQRAjTveU5HRWioMsocwar855sSJB",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5450524631",
+      "explorerUrl": "https://explorer.solana.com/tx/4BgWrmsZF8zBu3VUFksYy2mjd3oiqUcsKLohK7gdRXUPTgrXN5v4ViX1NfWZhZvYtzsAsdzT1Pmc4eARMZsaT4Kf?cluster=devnet",
+      "namespace": "prkt-proof",
+      "parts": [
+        "5eAhBytRcfuoxYCi1ZC4KDfnnEwZw7kptgczsf17LXdXAq4AvRgfBHaUVqfx56MsZepkyCUVr8HutyTRmKdXnbFm"
+      ],
+      "payload": {
+        "attestation": {
+          "agentId": "devnet-agent-1773402181490",
+          "checks": {
+            "allowlist": {
+              "passed": true,
+              "program": "11111111111111111111111111111111"
+            },
+            "killSwitch": {
+              "active": false,
+              "passed": true
+            },
+            "spendLimit": {
+              "limitLamports": "2000000000",
+              "passed": true,
+              "requestedLamports": "1000000000",
+              "spentLamports": "100000000"
+            },
+            "ttl": {
+              "expiresAt": 1773405807280,
+              "now": 1773402207280,
+              "passed": true
+            }
+          },
+          "intentHash": "e5f84f226a88f5ce311d935cee4842ca1eddba59cf985e8942ba4ae152dd38c0",
+          "policyHash": "02014417af88dbc86940db2b751cca80b89596358409e9e803d05dc5ec9cc9f1",
+          "prover": "PRKT-LOCAL-v1",
+          "timestamp": 1773402207280
+        },
+        "publicKey": "24Tp1eWfzBKJKW72as9wL7XRaj49jhTZcpeZpp5nYZuV",
+        "signature": "NUkBHplFF+6qV6c+j+e8Z1lC7elu2HgCUw2EXzrq2bJRe2R7X6FuwijMkK7939tQfMuwE+HfrhAJB78ob1JTAA==",
+        "txSignature": "5eAhBytRcfuoxYCi1ZC4KDfnnEwZw7kptgczsf17LXdXAq4AvRgfBHaUVqfx56MsZepkyCUVr8HutyTRmKdXnbFm"
+      },
+      "signature": "4BgWrmsZF8zBu3VUFksYy2mjd3oiqUcsKLohK7gdRXUPTgrXN5v4ViX1NfWZhZvYtzsAsdzT1Pmc4eARMZsaT4Kf",
+      "slot": 448185269,
+      "storedAt": 1773402214362
+    },
+    {
+      "address": "12TmPorDpZMNM88D3S6EcVaveXYjZdHsSvJPEWZa5ZyU",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/3EjvMqtdtdofCewP2uHCth1hZdkHztiB9kKHygRHkJ7CaHZPR2Efz76GqwGEWrG6QqTafVduVnVNsKUdco7MwBrM?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "devnet-agent-1773402181490",
+        "1773402214363",
+        "a2ce50cf9c76ef4ed703b3b3258ec67b452550ac152a43b62e573eb81ba45804"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773402181490",
+        "i": "EXECUTE",
+        "ok": 1,
+        "s": "success",
+        "t": 1773402214363,
+        "tx": "5eAhBytRcfuoxYCi1ZC4KDfnnEwZw7kptgczsf17LXdXAq4AvRgfBHaUVqfx56MsZepkyCUVr8HutyTRmKdXnbFm"
+      },
+      "signature": "3EjvMqtdtdofCewP2uHCth1hZdkHztiB9kKHygRHkJ7CaHZPR2Efz76GqwGEWrG6QqTafVduVnVNsKUdco7MwBrM",
+      "slot": 448185285,
+      "storedAt": 1773402220591
+    },
+    {
+      "address": "124En8xqutKreEq5UYBvqq1jRUcUHFKmiKgqbbkZ44qR",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/4BDXC8ap2uhDJJtb5Fr79FmtkSqL8ztXnZs568v5MvxusDx4nUpGXjiDNvELutRRWv9ER7pz75gjjgXbjptsmDti?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "devnet-agent-1773402181490",
+        "1773402220917",
+        "6b68736f491a8431fd875d870b283a64a131de362f5d13ec8ed7ed43cb48daf2"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773402181490",
+        "i": "EXECUTE_EVM",
+        "ok": 0,
+        "r": "DAILY_LIMIT_EXCEEDED",
+        "s": "skipped",
+        "t": 1773402220917
+      },
+      "signature": "4BDXC8ap2uhDJJtb5Fr79FmtkSqL8ztXnZs568v5MvxusDx4nUpGXjiDNvELutRRWv9ER7pz75gjjgXbjptsmDti",
+      "slot": 448185299,
+      "storedAt": 1773402226639
+    },
+    {
+      "address": "14XHecUXBdJMGxsLYiHEU5FehMhajdY1TAhzKmSQvfRR",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453433031",
+      "explorerUrl": "https://explorer.solana.com/tx/2GPFmB27ofbJmFLDkByMt7kykVLhfHNAs3M6HtUhhbYRYhz98ehTnhW3gWxek7KHDp1x9pJtob8wzR3JaF3EYm9Y?cluster=devnet",
+      "namespace": "prkt-session-close",
+      "parts": [
+        "67b82a78-08e7-48c3-9dd4-debb89fcbb0f"
+      ],
+      "payload": {
+        "entryCount": 3,
+        "event": "SESSION_CLOSE",
+        "logHash": "e30cdc3d1adc9e24210961ee69f3fb84067da0737a7b2b76eaa95da85412efcc",
+        "prkt": 1,
+        "sessionId": "67b82a78-08e7-48c3-9dd4-debb89fcbb0f",
+        "ts": 1773402226641
+      },
+      "signature": "2GPFmB27ofbJmFLDkByMt7kykVLhfHNAs3M6HtUhhbYRYhz98ehTnhW3gWxek7KHDp1x9pJtob8wzR3JaF3EYm9Y",
+      "slot": 448185312,
+      "storedAt": 1773402231761
+    },
+    {
+      "address": "14ShQ9JPBKgX7GmbALcSZvPAkdaQj5cMUk84DGKP2hdn",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b54504f4c31",
+      "explorerUrl": "https://explorer.solana.com/tx/56SudLX6J6WqCJeQExMFS4Tz3a4w5qXKbo58z5NWUaggBmMaVAzGJghQ3rHFrfMbf4tSzPiBYrX8GTt3jqPQkeDv?cluster=devnet",
+      "namespace": "prkt-policy",
+      "parts": [
+        "devnet-agent-1773403024254",
+        "1773403026474"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773403024254",
+        "d": "2000000000",
+        "k": 0,
+        "l": [
+          "11111111111111111111111111111111"
+        ],
+        "r": 1773403026474,
+        "s": 60,
+        "t": "0",
+        "u": 1773403026474
+      },
+      "signature": "56SudLX6J6WqCJeQExMFS4Tz3a4w5qXKbo58z5NWUaggBmMaVAzGJghQ3rHFrfMbf4tSzPiBYrX8GTt3jqPQkeDv",
+      "slot": 448187413,
+      "storedAt": 1773403032542
+    },
+    {
+      "address": "14MVjt4TkjsCmEKexsjCEJxaY6waTTgVzmy8q3RjmMhA",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453533031",
+      "explorerUrl": "https://explorer.solana.com/tx/29eSskc1RKBMT1eg55ytHh4GCVC86vazTeTL6F81cUMraxoFT6jr25DCTB2VpW1SQAaaNY5fdyS8y7EpZQNJStv7?cluster=devnet",
+      "namespace": "prkt-session-start",
+      "parts": [
+        "6189e15a-b455-4c67-ac04-6b0e682f69de"
+      ],
+      "payload": {
+        "agentId": "devnet-agent-1773403024254",
+        "event": "SESSION_START",
+        "prkt": 1,
+        "sessionId": "6189e15a-b455-4c67-ac04-6b0e682f69de",
+        "ts": 1773403032546
+      },
+      "signature": "29eSskc1RKBMT1eg55ytHh4GCVC86vazTeTL6F81cUMraxoFT6jr25DCTB2VpW1SQAaaNY5fdyS8y7EpZQNJStv7",
+      "slot": 448187426,
+      "storedAt": 1773403037548
+    },
+    {
+      "address": "14WR1R1hqWGfavJLGzNiSvrqviAdJCKmFyzokMHsxGpg",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5450524631",
+      "explorerUrl": "https://explorer.solana.com/tx/py6y8hPwbNsbeCQax698EcBVruPzgczdptBmWmz72JskS2iCX7rJNuqytGRESKzjSTCW56mZGVZUTTw83huW8nQ?cluster=devnet",
+      "namespace": "prkt-proof",
+      "parts": [
+        "4Fsmt688A6YcSrmPJeD3CZsNhLrGrCKFRvpQwwptmiduBDEphJYw41FnnrPzdMmPRH7upsMf1QB7N1itcJ7pm8k2"
+      ],
+      "payload": {
+        "attestation": {
+          "agentId": "devnet-agent-1773403024254",
+          "checks": {
+            "allowlist": {
+              "passed": true,
+              "program": "11111111111111111111111111111111"
+            },
+            "killSwitch": {
+              "active": false,
+              "passed": true
+            },
+            "spendLimit": {
+              "limitLamports": "2000000000",
+              "passed": true,
+              "requestedLamports": "100000000",
+              "spentLamports": "0"
+            },
+            "ttl": {
+              "expiresAt": 1773406637871,
+              "now": 1773403037871,
+              "passed": true
+            }
+          },
+          "intentHash": "582e9bd959b24c664e80a28df8452f1de1f8395f80c9fdd9ba85c127bf25789e",
+          "policyHash": "ddbe1f6772f3a990498a7264bce78fe75bd3f1d928b70d1b771ff30386c39897",
+          "prover": "PRKT-LOCAL-v1",
+          "timestamp": 1773403037871
+        },
+        "publicKey": "Dv1rnWkV5dyiNnnb3TUA6a4YsSUUucPzehivpPA5Bs9Y",
+        "signature": "D+4pR/u7L5XEnbS17rjMlA4z5106mDC+5r/kTWgF5wSgFP8jm+GV3MfueFoKZBw9bXhnmneAyNbJ7lbKdaxiDQ==",
+        "txSignature": "4Fsmt688A6YcSrmPJeD3CZsNhLrGrCKFRvpQwwptmiduBDEphJYw41FnnrPzdMmPRH7upsMf1QB7N1itcJ7pm8k2"
+      },
+      "signature": "py6y8hPwbNsbeCQax698EcBVruPzgczdptBmWmz72JskS2iCX7rJNuqytGRESKzjSTCW56mZGVZUTTw83huW8nQ",
+      "slot": 448187444,
+      "storedAt": 1773403044827
+    },
+    {
+      "address": "14n2h5yUz7Hazu979xTb49pPeXDwLMxMeKpDymPYobJa",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/xTczU4GQCVdmQYVd3izDYcJ9A7bp5ShXWNAhQkwf5E7BWhrnJ1oL3tdRgj4uT19k3nDFCvZh3eCJmxmEBLUS5ge?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "devnet-agent-1773403024254",
+        "1773403044829",
+        "3774480962b1d823148d0b04fb4ae16ce16abaf8905c24aa22ffcbdbdc46d5c4"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773403024254",
+        "i": "EXECUTE",
+        "ok": 1,
+        "s": "success",
+        "t": 1773403044829,
+        "tx": "4Fsmt688A6YcSrmPJeD3CZsNhLrGrCKFRvpQwwptmiduBDEphJYw41FnnrPzdMmPRH7upsMf1QB7N1itcJ7pm8k2"
+      },
+      "signature": "xTczU4GQCVdmQYVd3izDYcJ9A7bp5ShXWNAhQkwf5E7BWhrnJ1oL3tdRgj4uT19k3nDFCvZh3eCJmxmEBLUS5ge",
+      "slot": 448187461,
+      "storedAt": 1773403050999
+    },
+    {
+      "address": "13iXxMrRrSh4EThPGnVqQAH1ynVTaGQ9VxWq4RZMcBYW",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5450524631",
+      "explorerUrl": "https://explorer.solana.com/tx/35EEBEn8rMJQyfjNH1fRtJr7yxVs6cwQsXZw7RijaP8ETJPcCj1GKb85ysgixHAu6ZFsRBLJhWoKNLTzcUtQxn3Q?cluster=devnet",
+      "namespace": "prkt-proof",
+      "parts": [
+        "3CzoWukdhKSi1ivbmGfRdbh23uEonaerv8h2iQyZvrLCJvvtxTFbh9AQhXAmxyeQccUvbbv8vQNYoVtDqwDDQ1au"
+      ],
+      "payload": {
+        "attestation": {
+          "agentId": "devnet-agent-1773403024254",
+          "checks": {
+            "allowlist": {
+              "passed": true,
+              "program": "11111111111111111111111111111111"
+            },
+            "killSwitch": {
+              "active": false,
+              "passed": true
+            },
+            "spendLimit": {
+              "limitLamports": "2000000000",
+              "passed": true,
+              "requestedLamports": "1000000000",
+              "spentLamports": "100000000"
+            },
+            "ttl": {
+              "expiresAt": 1773406651703,
+              "now": 1773403051703,
+              "passed": true
+            }
+          },
+          "intentHash": "30ce9ae65a29a1d53eac4fdb24c2f5a256cf9865e43b8f75cc223a3dd9e3bc4e",
+          "policyHash": "2ebd8adf7c58a1b9d6d9ba65b2bf4f5947592dce2a24a190e4123e6119ad801b",
+          "prover": "PRKT-LOCAL-v1",
+          "timestamp": 1773403051703
+        },
+        "publicKey": "Dv1rnWkV5dyiNnnb3TUA6a4YsSUUucPzehivpPA5Bs9Y",
+        "signature": "M4unuUYqCUfsneH79GfHIOlJCoXw2YrUWxi5NkPuJsEirk6B7CzYkfukj2xJlc1boPMEs1PWdqiAPTWWLqv1AQ==",
+        "txSignature": "3CzoWukdhKSi1ivbmGfRdbh23uEonaerv8h2iQyZvrLCJvvtxTFbh9AQhXAmxyeQccUvbbv8vQNYoVtDqwDDQ1au"
+      },
+      "signature": "35EEBEn8rMJQyfjNH1fRtJr7yxVs6cwQsXZw7RijaP8ETJPcCj1GKb85ysgixHAu6ZFsRBLJhWoKNLTzcUtQxn3Q",
+      "slot": 448187481,
+      "storedAt": 1773403058132
+    },
+    {
+      "address": "14sqaQY81AqWrAcQRzxxKLGYkR3uC99nq6oEazoXSt3",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/2GdpU8JDi6Ayxu4F7Uvf3CvtgLM4N1zRKNHojofwCaSeV92BuDBZKfEpUP5pWMBBEsjYTeHNjZvYQEK4P5eiquVr?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "devnet-agent-1773403024254",
+        "1773403058132",
+        "165cb1c32fdeb93f043fa2865ddad810685d3bc9cc273e425d6e0c14ceaa8e34"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773403024254",
+        "i": "EXECUTE",
+        "ok": 1,
+        "s": "success",
+        "t": 1773403058132,
+        "tx": "3CzoWukdhKSi1ivbmGfRdbh23uEonaerv8h2iQyZvrLCJvvtxTFbh9AQhXAmxyeQccUvbbv8vQNYoVtDqwDDQ1au"
+      },
+      "signature": "2GdpU8JDi6Ayxu4F7Uvf3CvtgLM4N1zRKNHojofwCaSeV92BuDBZKfEpUP5pWMBBEsjYTeHNjZvYQEK4P5eiquVr",
+      "slot": 448187493,
+      "storedAt": 1773403063097
+    },
+    {
+      "address": "1SxH291KNq11xPWMP8fHKSiSdxyxzmu6NJCWH6Sb6k1",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/3otcdW4oGM5X4AqRE3xkTHryXbs3HX2D1gDQSXjYQDUhSffy9uBZquMVcPeShiNH2tMKW1ZLiLdDQrsyz24L2XNN?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "devnet-agent-1773403024254",
+        "1773403063423",
+        "f40fe3d984e57bd2b1ee6dd01e0bb6e8f7f6b30f1645e4cf55aa5b469b1de27c"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773403024254",
+        "i": "EXECUTE_EVM",
+        "ok": 0,
+        "r": "DAILY_LIMIT_EXCEEDED",
+        "s": "skipped",
+        "t": 1773403063423
+      },
+      "signature": "3otcdW4oGM5X4AqRE3xkTHryXbs3HX2D1gDQSXjYQDUhSffy9uBZquMVcPeShiNH2tMKW1ZLiLdDQrsyz24L2XNN",
+      "slot": 448187508,
+      "storedAt": 1773403069295
+    },
+    {
+      "address": "12hQtHRh2htRp8ibWuNJRPf49jQ81FWUoU7yqZBp9MS9",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453433031",
+      "explorerUrl": "https://explorer.solana.com/tx/5m97t1eyWcM5NWWRVWSrZU4UP7ZVegFU49DU9tVkC26HXbwKtSfms6x2uTTK1aqpNSobNzDcbscN3LtC8g4ZCrZD?cluster=devnet",
+      "namespace": "prkt-session-close",
+      "parts": [
+        "6189e15a-b455-4c67-ac04-6b0e682f69de"
+      ],
+      "payload": {
+        "entryCount": 3,
+        "event": "SESSION_CLOSE",
+        "logHash": "2b87951c61ae7764d6210358030b3fc4025d072a63f85b586d63fece9df9e43d",
+        "prkt": 1,
+        "sessionId": "6189e15a-b455-4c67-ac04-6b0e682f69de",
+        "ts": 1773403069296
+      },
+      "signature": "5m97t1eyWcM5NWWRVWSrZU4UP7ZVegFU49DU9tVkC26HXbwKtSfms6x2uTTK1aqpNSobNzDcbscN3LtC8g4ZCrZD",
+      "slot": 448187523,
+      "storedAt": 1773403075346
+    },
+    {
+      "address": "12mnUcAJE24zZ2fjnkK2CWbqK7fcsH2uHHvd2aS73Avt",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b54504f4c31",
+      "explorerUrl": "https://explorer.solana.com/tx/xG8DwKGRtypaBNcCQQg8LCmoRR2iB3xSPUeArBqFANMpm8NLxDRHpoveCoubj47e25XrzkkTYLkJx79F95Z6iqV?cluster=devnet",
+      "namespace": "prkt-policy",
+      "parts": [
+        "devnet-agent-1773405440836",
+        "1773405443135"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773405440836",
+        "d": "2000000000",
+        "k": 0,
+        "l": [
+          "11111111111111111111111111111111"
+        ],
+        "r": 1773405443134,
+        "s": 60,
+        "t": "0",
+        "u": 1773405443135
+      },
+      "signature": "xG8DwKGRtypaBNcCQQg8LCmoRR2iB3xSPUeArBqFANMpm8NLxDRHpoveCoubj47e25XrzkkTYLkJx79F95Z6iqV",
+      "slot": 448193786,
+      "storedAt": 1773405450401
+    },
+    {
+      "address": "13DLHUhkUzCKwaHiot5XEGQpAfqMHH5kBxPmD4e5WBCy",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453533031",
+      "explorerUrl": "https://explorer.solana.com/tx/56awwVnYcLESfhW818JSFhbKTsCohsjNVS68ALYgopikqaNt1ovVx9snEUC5Br5288R9F6jPeqSzhPBDq2Aif1jV?cluster=devnet",
+      "namespace": "prkt-session-start",
+      "parts": [
+        "1438752b-3265-47b4-8071-861cce4922f3"
+      ],
+      "payload": {
+        "agentId": "devnet-agent-1773405440836",
+        "event": "SESSION_START",
+        "prkt": 1,
+        "sessionId": "1438752b-3265-47b4-8071-861cce4922f3",
+        "ts": 1773405450406
+      },
+      "signature": "56awwVnYcLESfhW818JSFhbKTsCohsjNVS68ALYgopikqaNt1ovVx9snEUC5Br5288R9F6jPeqSzhPBDq2Aif1jV",
+      "slot": 448193803,
+      "storedAt": 1773405456527
+    },
+    {
+      "address": "14hWDS4QSDPPPHug2fbB2hcYCDdAGg3Z8QX8pjotoMVD",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5450524631",
+      "explorerUrl": "https://explorer.solana.com/tx/5tui25MrxDGhpZmzvgeE7sUkpkSHnh9uB3oJjZvPwkLHJn2iECEK95SDdYK1GZwEjwENfKfjaRPRyfGNWqPNUYDq?cluster=devnet",
+      "namespace": "prkt-proof",
+      "parts": [
+        "2LW8VFMK6RLDpF7c23AREZfa3NT1oBq1iGxNXNHCmVrgEZnotR7oPb1V1BtFQ7PRL48XiH5ZnNsuviur13rn8NcW"
+      ],
+      "payload": {
+        "attestation": {
+          "agentId": "devnet-agent-1773405440836",
+          "checks": {
+            "allowlist": {
+              "passed": true,
+              "program": "11111111111111111111111111111111"
+            },
+            "killSwitch": {
+              "active": false,
+              "passed": true
+            },
+            "spendLimit": {
+              "limitLamports": "2000000000",
+              "passed": true,
+              "requestedLamports": "100000000",
+              "spentLamports": "0"
+            },
+            "ttl": {
+              "expiresAt": 1773409056976,
+              "now": 1773405456977,
+              "passed": true
+            }
+          },
+          "intentHash": "2eea9a93596f07e5d784619ef297212f8fd93f59d27f5240ca1a4891d797d634",
+          "policyHash": "ecd45ff65edaed7db4b686c5924f62a858a141ae374d85248c55e41237d7c844",
+          "prover": "PRKT-LOCAL-v1",
+          "timestamp": 1773405456977
+        },
+        "publicKey": "BaiF4uKAMLiBYTjB38og6kPcYQ5UsqAWuutwWLLDTYoi",
+        "signature": "raiE7RU7ymL5f6WoSwUXfgCYgzYTHd+6cs4B4vC0oxlzT1m3+pfrtoLAaEajiIwRPNu6CVS5JaZSFRVuTwA3Bw==",
+        "txSignature": "2LW8VFMK6RLDpF7c23AREZfa3NT1oBq1iGxNXNHCmVrgEZnotR7oPb1V1BtFQ7PRL48XiH5ZnNsuviur13rn8NcW"
+      },
+      "signature": "5tui25MrxDGhpZmzvgeE7sUkpkSHnh9uB3oJjZvPwkLHJn2iECEK95SDdYK1GZwEjwENfKfjaRPRyfGNWqPNUYDq",
+      "slot": 448193824,
+      "storedAt": 1773405464482
+    },
+    {
+      "address": "1UbFcbbWBBiRuwmoU2CUJPjhrDnU1NcwFVjpaBq6e4X",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/2cWPFnfK4NdCKzfPuL6D6zZGc33QyaVZjzgYYCfBf8rAmBAxUTBs3f1bRKnrkZWBiTs8YmW3K1waD2KcXmfRFWx9?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "devnet-agent-1773405440836",
+        "1773405464483",
+        "0617c4676a65e8f080da2d1edbd45397265c376eca1fd9157e1c4a5b3e521582"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773405440836",
+        "i": "EXECUTE",
+        "ok": 1,
+        "s": "success",
+        "t": 1773405464483,
+        "tx": "2LW8VFMK6RLDpF7c23AREZfa3NT1oBq1iGxNXNHCmVrgEZnotR7oPb1V1BtFQ7PRL48XiH5ZnNsuviur13rn8NcW"
+      },
+      "signature": "2cWPFnfK4NdCKzfPuL6D6zZGc33QyaVZjzgYYCfBf8rAmBAxUTBs3f1bRKnrkZWBiTs8YmW3K1waD2KcXmfRFWx9",
+      "slot": 448193840,
+      "storedAt": 1773405470589
+    },
+    {
+      "address": "13JRu36REq5eCMGRKGEdRJwtzDt74XVfVT48hMP86ufA",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5450524631",
+      "explorerUrl": "https://explorer.solana.com/tx/2NDrWxrhJB6uchp4ngbzAM8ctvNs3HTtnkpLH4gSiUfiTdvAnZksFHrkCKKBdHvTGZVQwBDFW1J5chWetbEDC7ep?cluster=devnet",
+      "namespace": "prkt-proof",
+      "parts": [
+        "4wynzxEJhsDmcb8Hxb62b3VmpwDgRqzdY7jMyLrrVi3c8iTKaaJLdtLdSqFmTuV25F75ioMwicQgYkFKV2rMijep"
+      ],
+      "payload": {
+        "attestation": {
+          "agentId": "devnet-agent-1773405440836",
+          "checks": {
+            "allowlist": {
+              "passed": true,
+              "program": "11111111111111111111111111111111"
+            },
+            "killSwitch": {
+              "active": false,
+              "passed": true
+            },
+            "spendLimit": {
+              "limitLamports": "2000000000",
+              "passed": true,
+              "requestedLamports": "1000000000",
+              "spentLamports": "100000000"
+            },
+            "ttl": {
+              "expiresAt": 1773409071265,
+              "now": 1773405471265,
+              "passed": true
+            }
+          },
+          "intentHash": "e917cb0fe2517fca1f24c1fc8faf61f72201d7e0db02708ce823983a7bb9f11b",
+          "policyHash": "9c596ff2f9e7647c5113e33813cf4ce38ac3c07d23b64dea5477f325c4801785",
+          "prover": "PRKT-LOCAL-v1",
+          "timestamp": 1773405471265
+        },
+        "publicKey": "BaiF4uKAMLiBYTjB38og6kPcYQ5UsqAWuutwWLLDTYoi",
+        "signature": "GJPEj9/G7F7tNadIQH/n5sDAVzu/wU1+lsdzKfSvD+uKoKbXoaMT+nh6Sp5Y5YfNt3pWqNW+ZjOK6M7bo5wXCw==",
+        "txSignature": "4wynzxEJhsDmcb8Hxb62b3VmpwDgRqzdY7jMyLrrVi3c8iTKaaJLdtLdSqFmTuV25F75ioMwicQgYkFKV2rMijep"
+      },
+      "signature": "2NDrWxrhJB6uchp4ngbzAM8ctvNs3HTtnkpLH4gSiUfiTdvAnZksFHrkCKKBdHvTGZVQwBDFW1J5chWetbEDC7ep",
+      "slot": 448193863,
+      "storedAt": 1773405479067
+    },
+    {
+      "address": "133v21ZPMaDpA4mDVVVz49AGb8fXyLf11RsiXM95vQR1",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/4kcX5iStWM4LHwGyW6cuCajvTpttMdY8UnMmwbNJj8nftBuM3mNbih19rTrBUUP4ZUx64WsLocp1qdqWUsxAr9FV?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "devnet-agent-1773405440836",
+        "1773405479068",
+        "d0450fca3836f7fb8546ea4e4bd8b32be5947c0831b5ae921ea284c65a12418a"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773405440836",
+        "i": "EXECUTE",
+        "ok": 1,
+        "s": "success",
+        "t": 1773405479068,
+        "tx": "4wynzxEJhsDmcb8Hxb62b3VmpwDgRqzdY7jMyLrrVi3c8iTKaaJLdtLdSqFmTuV25F75ioMwicQgYkFKV2rMijep"
+      },
+      "signature": "4kcX5iStWM4LHwGyW6cuCajvTpttMdY8UnMmwbNJj8nftBuM3mNbih19rTrBUUP4ZUx64WsLocp1qdqWUsxAr9FV",
+      "slot": 448193876,
+      "storedAt": 1773405483976
+    },
+    {
+      "address": "14Cvi8QoX6pKygvDKzQTYtgcbgTGcGEuAfpRpKU9LaHq",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/5WrPX8fTzg9ugQUr3QWah1BY4ahPygr6ZBhEhBioQMakbLmE5kGTA8m4LuqyMGpCWiNBzp4jva1myTaQ1Z8eLa4M?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "devnet-agent-1773405440836",
+        "1773405484304",
+        "89a7138e4d14c507ed4961c4b35bbb0d4c617e09b66105a50946a3216c6dde03"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773405440836",
+        "i": "EXECUTE_EVM",
+        "ok": 0,
+        "r": "DAILY_LIMIT_EXCEEDED",
+        "s": "skipped",
+        "t": 1773405484304
+      },
+      "signature": "5WrPX8fTzg9ugQUr3QWah1BY4ahPygr6ZBhEhBioQMakbLmE5kGTA8m4LuqyMGpCWiNBzp4jva1myTaQ1Z8eLa4M",
+      "slot": 448193891,
+      "storedAt": 1773405489334
+    },
+    {
+      "address": "12x4U1jh23FnVoVeegWGgBSkW7HvnSfhuUEbqdpJpGMn",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453433031",
+      "explorerUrl": "https://explorer.solana.com/tx/5cNdc8w615FDpYUAW2Vdf93i42UT8GnZwuz73cLJiUc3AwxyiTRes21gaAYHzC5K7tjUSbkC6z3tg6LH7zbERJt5?cluster=devnet",
+      "namespace": "prkt-session-close",
+      "parts": [
+        "1438752b-3265-47b4-8071-861cce4922f3"
+      ],
+      "payload": {
+        "entryCount": 3,
+        "event": "SESSION_CLOSE",
+        "logHash": "f4f1384bfed7edc2b8c03d4b2c25c6a28eb2664093eaa7fe83657c52262b568d",
+        "prkt": 1,
+        "sessionId": "1438752b-3265-47b4-8071-861cce4922f3",
+        "ts": 1773405489336
+      },
+      "signature": "5cNdc8w615FDpYUAW2Vdf93i42UT8GnZwuz73cLJiUc3AwxyiTRes21gaAYHzC5K7tjUSbkC6z3tg6LH7zbERJt5",
+      "slot": 448193904,
+      "storedAt": 1773405494742
+    },
+    {
+      "address": "12AS4m9f78oG9MGEMXYJXmPMKAQ7MgjfAJw43dGp6Qsn",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b54504f4c31",
+      "explorerUrl": "https://explorer.solana.com/tx/3wS6ZPKe4mdjS4tCikmy7dHoyAtgLJio5AL3yWtPhBnH7PVgADzriCc52nYximcYUJpFJvwF96csPaStQn4c49xf?cluster=devnet",
+      "namespace": "prkt-policy",
+      "parts": [
+        "matrix-advanced-05765870",
+        "1773406149699"
+      ],
+      "payload": {
+        "a": "matrix-advanced-05765870",
+        "d": "250000000",
+        "k": 0,
+        "l": [
+          "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+        ],
+        "r": 1773406149699,
+        "s": 30,
+        "t": "0",
+        "u": 1773406149699
+      },
+      "signature": "3wS6ZPKe4mdjS4tCikmy7dHoyAtgLJio5AL3yWtPhBnH7PVgADzriCc52nYximcYUJpFJvwF96csPaStQn4c49xf",
+      "slot": 448195649,
+      "storedAt": 1773406155859
+    },
+    {
+      "address": "13M5HReBQkJDZ5s8sVQggKgnUzNTpXHzY7xdk1pnxWVL",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453533031",
+      "explorerUrl": "https://explorer.solana.com/tx/5WzD6hLqu2gj1mEjXcRjLGQ7uNmN7rwmN8qN3rPnLBio2Hcqxjvzh984QsKcY9DaiiBZw3wbrjZLS5LDS9b7Qw4H?cluster=devnet",
+      "namespace": "prkt-session-start",
+      "parts": [
+        "4f0e5d40-e985-42e3-adbd-15ec98e6d8b8"
+      ],
+      "payload": {
+        "agentId": "matrix-advanced-05765870",
+        "event": "SESSION_START",
+        "prkt": 1,
+        "sessionId": "4f0e5d40-e985-42e3-adbd-15ec98e6d8b8",
+        "ts": 1773406156079
+      },
+      "signature": "5WzD6hLqu2gj1mEjXcRjLGQ7uNmN7rwmN8qN3rPnLBio2Hcqxjvzh984QsKcY9DaiiBZw3wbrjZLS5LDS9b7Qw4H",
+      "slot": 448195664,
+      "storedAt": 1773406161366
+    },
+    {
+      "address": "14hVGy9YAtVV9JF4ag72ZkX4sSLUz5pUFuRDkCohpAVA",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5450524631",
+      "explorerUrl": "https://explorer.solana.com/tx/2Cdgg7CG33mRiYhtUufTYykM4jQahh76Pq7iKY4KKAovGruS2Lu2fyNkBQiWvEXRgz2bYa1S3pJsdu4V1cnaVNN4?cluster=devnet",
+      "namespace": "prkt-proof",
+      "parts": [
+        "98TziK1sj9zX14fBYm7AcmhSFZV9GkXhY4M36r1hQXKA2avfxuhWmEhfGSyCvL5TZdVfhLXK5BqyY7HasnKCvxf"
+      ],
+      "payload": {
+        "attestation": {
+          "agentId": "matrix-advanced-05765870",
+          "checks": {
+            "allowlist": {
+              "passed": true,
+              "program": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+            },
+            "killSwitch": {
+              "active": false,
+              "passed": true
+            },
+            "spendLimit": {
+              "limitLamports": "250000000",
+              "passed": true,
+              "requestedLamports": "0",
+              "spentLamports": "0"
+            },
+            "ttl": {
+              "expiresAt": 1773407961533,
+              "now": 1773406161534,
+              "passed": true
+            }
+          },
+          "intentHash": "ae3ce7f3a30cebb8e76b1fc8986fc868a97782fd3703276660855107e9126652",
+          "policyHash": "ca3cdc5713c06b6aaf09f5a553cdc1893fdad3895fa4529bba96c4103dc7d937",
+          "prover": "PRKT-LOCAL-v1",
+          "timestamp": 1773406161534
+        },
+        "publicKey": "HBfHMsAsSp7D6FNmQrs14QSB3jrReGdz4rGivLF4b2vQ",
+        "signature": "o83KPqZDR8O/F0Izy8qeALNe1q8AVxZBkG0bFyEMpOWOIxukRsHsui5GH2HNfEf6zlhqUhg8sU4cn4zaWiklCw==",
+        "txSignature": "98TziK1sj9zX14fBYm7AcmhSFZV9GkXhY4M36r1hQXKA2avfxuhWmEhfGSyCvL5TZdVfhLXK5BqyY7HasnKCvxf"
+      },
+      "signature": "2Cdgg7CG33mRiYhtUufTYykM4jQahh76Pq7iKY4KKAovGruS2Lu2fyNkBQiWvEXRgz2bYa1S3pJsdu4V1cnaVNN4",
+      "slot": 448195682,
+      "storedAt": 1773406167937
+    },
+    {
+      "address": "13wZ4XYSj9GKtmoLwaj6axoi3NYQfUtAiEPdchpRehG",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/35qPcrqd3sHhwxuxzPHVQKo5JAYSMFBEv3wt81AZNeg5aoF4C5Aor5A7Wmt6iV5sD1yaYXawL9E477CcUo8JuX29?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "matrix-advanced-05765870",
+        "1773406167938",
+        "646415b7413037e273896a640bd8d2173c3219f2a7be6fc32808f1ec6a440c77"
+      ],
+      "payload": {
+        "a": "matrix-advanced-05765870",
+        "i": "EXECUTE",
+        "ok": 1,
+        "s": "success",
+        "t": 1773406167938,
+        "tx": "98TziK1sj9zX14fBYm7AcmhSFZV9GkXhY4M36r1hQXKA2avfxuhWmEhfGSyCvL5TZdVfhLXK5BqyY7HasnKCvxf"
+      },
+      "signature": "35qPcrqd3sHhwxuxzPHVQKo5JAYSMFBEv3wt81AZNeg5aoF4C5Aor5A7Wmt6iV5sD1yaYXawL9E477CcUo8JuX29",
+      "slot": 448195696,
+      "storedAt": 1773406173434
+    },
+    {
+      "address": "14cpztJAJgSjMepRZZ6KRTQzfmCMNNTCyuLTSoq62qmU",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453433031",
+      "explorerUrl": "https://explorer.solana.com/tx/3a4f2qdcfHgp15XcoHEydjruFsfpNiwbZpxqCy1PkdgnsrtGvoep5XEWjJkkuf5T93nyLFa2vxLE4S78Gpq8CTc6?cluster=devnet",
+      "namespace": "prkt-session-close",
+      "parts": [
+        "4f0e5d40-e985-42e3-adbd-15ec98e6d8b8"
+      ],
+      "payload": {
+        "entryCount": 1,
+        "event": "SESSION_CLOSE",
+        "logHash": "245c3d17bf3ae08b047529118d54b8fb5ebf2a2acb85150fc39bc1005ba91879",
+        "prkt": 1,
+        "sessionId": "4f0e5d40-e985-42e3-adbd-15ec98e6d8b8",
+        "ts": 1773406173437
+      },
+      "signature": "3a4f2qdcfHgp15XcoHEydjruFsfpNiwbZpxqCy1PkdgnsrtGvoep5XEWjJkkuf5T93nyLFa2vxLE4S78Gpq8CTc6",
+      "slot": 448195709,
+      "storedAt": 1773406178440
+    },
+    {
+      "address": "1y9UpMVCGiC7X3Tp5MXCa1RS2zKFrkjsQ5LQjcNrA8Z",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b54504f4c31",
+      "explorerUrl": "https://explorer.solana.com/tx/2Bx9xp16VaomPYpsnWkTed6TT7FqixRa2zsjyk6wwEMAkNgB4qavWavwTxmQd2W4GPpkhbKYV3u5ayPzW7WVb14g?cluster=devnet",
+      "namespace": "prkt-policy",
+      "parts": [
+        "matrix-advanced-06244796",
+        "1773406534666"
+      ],
+      "payload": {
+        "a": "matrix-advanced-06244796",
+        "d": "250000000",
+        "k": 0,
+        "l": [
+          "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+        ],
+        "r": 1773406534666,
+        "s": 30,
+        "t": "0",
+        "u": 1773406534666
+      },
+      "signature": "2Bx9xp16VaomPYpsnWkTed6TT7FqixRa2zsjyk6wwEMAkNgB4qavWavwTxmQd2W4GPpkhbKYV3u5ayPzW7WVb14g",
+      "slot": 448196664,
+      "storedAt": 1773406539428
+    },
+    {
+      "address": "13icwub7fWeKTErHT6jZn5HYrwowYUWChUDtQaUPwYYs",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453533031",
+      "explorerUrl": "https://explorer.solana.com/tx/5YJHRLihuGbD9H6VRZtvuadhFrswYxYdguVGjf467KanKAoWpQgAeCbJcADRp3rau6GMgaaT7pdgzXtJ5GM9qizZ?cluster=devnet",
+      "namespace": "prkt-session-start",
+      "parts": [
+        "5cf3ea58-0803-4e66-9cb1-3dc16ccac589"
+      ],
+      "payload": {
+        "agentId": "matrix-advanced-06244796",
+        "event": "SESSION_START",
+        "prkt": 1,
+        "sessionId": "5cf3ea58-0803-4e66-9cb1-3dc16ccac589",
+        "ts": 1773406539585
+      },
+      "signature": "5YJHRLihuGbD9H6VRZtvuadhFrswYxYdguVGjf467KanKAoWpQgAeCbJcADRp3rau6GMgaaT7pdgzXtJ5GM9qizZ",
+      "slot": 448196676,
+      "storedAt": 1773406544286
+    },
+    {
+      "address": "13MH2zsmNEfqjpSbKeaPXn7yzkoFnA4RKTvJtMrWmgge",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5450524631",
+      "explorerUrl": "https://explorer.solana.com/tx/29uCy7Gqd2EufQHQ4kKqNZtAVwRcaeu1XTGvFs7wX53nox1uEZZfbYE3nsbT9YMPJ6XHS9qqySbVVDcs3E2z2H1p?cluster=devnet",
+      "namespace": "prkt-proof",
+      "parts": [
+        "3YibCuHf3sjr573QRNvcXzZbTkAoZTRFRZErQbUTwvP2tGnqUH2jPVnuyyWTDMoJwgftu8vziaGfsg5TejPtWQFb"
+      ],
+      "payload": {
+        "attestation": {
+          "agentId": "matrix-advanced-06244796",
+          "checks": {
+            "allowlist": {
+              "passed": true,
+              "program": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+            },
+            "killSwitch": {
+              "active": false,
+              "passed": true
+            },
+            "spendLimit": {
+              "limitLamports": "250000000",
+              "passed": true,
+              "requestedLamports": "0",
+              "spentLamports": "0"
+            },
+            "ttl": {
+              "expiresAt": 1773408344455,
+              "now": 1773406544456,
+              "passed": true
+            }
+          },
+          "intentHash": "a886009d0605b4a6e4a3c57adb1caa948a2a5ea1a3f67b6d695b5a4bcaa1a1cb",
+          "policyHash": "a9e944e155ad4b3bc764fd92f50a6a8f5be578d0d3b23940ab65c0fbd6fe5548",
+          "prover": "PRKT-LOCAL-v1",
+          "timestamp": 1773406544456
+        },
+        "publicKey": "F7t5SLmivNy9b6dDBGRbBc6TppSKFcHVbYnwVdTnjWT8",
+        "signature": "fJ7ttUTt4AlU/oKrhGh6cAGsa4PCSwU1qK8T6ra69hicvXmj5zHZOgSm6sBQuABWVqjqeVpPxLovxbKOvvtaAQ==",
+        "txSignature": "3YibCuHf3sjr573QRNvcXzZbTkAoZTRFRZErQbUTwvP2tGnqUH2jPVnuyyWTDMoJwgftu8vziaGfsg5TejPtWQFb"
+      },
+      "signature": "29uCy7Gqd2EufQHQ4kKqNZtAVwRcaeu1XTGvFs7wX53nox1uEZZfbYE3nsbT9YMPJ6XHS9qqySbVVDcs3E2z2H1p",
+      "slot": 448196695,
+      "storedAt": 1773406551579
+    },
+    {
+      "address": "12zAnMoBQ4NHM4XhXtuquezt4krqBTHCTwWKzY49JwuX",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/4Zu3jghjBigxixJQh6eAWvoGptYqwuMYA9SMTjSuNyLU6PNBec71mtZb8NARGuMYY9zDC1CBJx7WoKXfmDUFrD59?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "matrix-advanced-06244796",
+        "1773406551580",
+        "0cfc032d1473bd8acd0d13d62716a6b9bbf5102067d62107501f65fa576e27e9"
+      ],
+      "payload": {
+        "a": "matrix-advanced-06244796",
+        "i": "EXECUTE",
+        "ok": 1,
+        "s": "success",
+        "t": 1773406551580,
+        "tx": "3YibCuHf3sjr573QRNvcXzZbTkAoZTRFRZErQbUTwvP2tGnqUH2jPVnuyyWTDMoJwgftu8vziaGfsg5TejPtWQFb"
+      },
+      "signature": "4Zu3jghjBigxixJQh6eAWvoGptYqwuMYA9SMTjSuNyLU6PNBec71mtZb8NARGuMYY9zDC1CBJx7WoKXfmDUFrD59",
+      "slot": 448196709,
+      "storedAt": 1773406556483
+    },
+    {
+      "address": "12mdUWHtpzLVU2uZBe816L9b9e5fkKETv3H5vK4EGuYc",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453433031",
+      "explorerUrl": "https://explorer.solana.com/tx/4RGySQE3Uo6v5UzCzqmZrF5Jgc3jgdpBHR4RtGz4eCLUnT3muoQ1SUQLGwD2vxUiZkVnhkq6VheSq3g87J8nGBNJ?cluster=devnet",
+      "namespace": "prkt-session-close",
+      "parts": [
+        "5cf3ea58-0803-4e66-9cb1-3dc16ccac589"
+      ],
+      "payload": {
+        "entryCount": 1,
+        "event": "SESSION_CLOSE",
+        "logHash": "90ad50cc30a43cf0fcbf57598b929c1d4ebf3578c3358293e1728020ca38238b",
+        "prkt": 1,
+        "sessionId": "5cf3ea58-0803-4e66-9cb1-3dc16ccac589",
+        "ts": 1773406556485
+      },
+      "signature": "4RGySQE3Uo6v5UzCzqmZrF5Jgc3jgdpBHR4RtGz4eCLUnT3muoQ1SUQLGwD2vxUiZkVnhkq6VheSq3g87J8nGBNJ",
+      "slot": 448196721,
+      "storedAt": 1773406561336
+    },
+    {
+      "address": "135STDHxdqBAwU9vuvqhC28Ma3iVANBSGVbiQdCZYK4N",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b54504f4c31",
+      "explorerUrl": "https://explorer.solana.com/tx/5WaQEKD8e4DQAVnLhDxeiepZhi2m4zT9wqD8361j9vB2zMFbf7b3WKvaLEYoQrV8Qb8jr6HzCcKbJ4akLVE1nMGk?cluster=devnet",
+      "namespace": "prkt-policy",
+      "parts": [
+        "matrix-advanced-06706488",
+        "1773407021589"
+      ],
+      "payload": {
+        "a": "matrix-advanced-06706488",
+        "d": "250000000",
+        "k": 0,
+        "l": [
+          "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+        ],
+        "r": 1773407021589,
+        "s": 30,
+        "t": "0",
+        "u": 1773407021589
+      },
+      "signature": "5WaQEKD8e4DQAVnLhDxeiepZhi2m4zT9wqD8361j9vB2zMFbf7b3WKvaLEYoQrV8Qb8jr6HzCcKbJ4akLVE1nMGk",
+      "slot": 448197953,
+      "storedAt": 1773407027678
+    },
+    {
+      "address": "1MenyU2M6dHgy295M76p1qdkXJHfwc2ahVvuuzYAxCC",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453533031",
+      "explorerUrl": "https://explorer.solana.com/tx/5HrjgSTXq1wQpeKw74rmkDyjRAbUAdaUofiMnGVtom93rZFXaC84CPKfzAjuABXN7gfvz3hxFjdiEWfvP5D472nH?cluster=devnet",
+      "namespace": "prkt-session-start",
+      "parts": [
+        "9c3a1a2f-b0e5-413e-a041-db08608b2e81"
+      ],
+      "payload": {
+        "agentId": "matrix-advanced-06706488",
+        "event": "SESSION_START",
+        "prkt": 1,
+        "sessionId": "9c3a1a2f-b0e5-413e-a041-db08608b2e81",
+        "ts": 1773407027903
+      },
+      "signature": "5HrjgSTXq1wQpeKw74rmkDyjRAbUAdaUofiMnGVtom93rZFXaC84CPKfzAjuABXN7gfvz3hxFjdiEWfvP5D472nH",
+      "slot": 448197968,
+      "storedAt": 1773407032710
+    },
+    {
+      "address": "13V5HH9sCQny4EN4XLR5raoysrpuzxvmxnkFHQQqc4K4",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5450524631",
+      "explorerUrl": "https://explorer.solana.com/tx/61vdf6EJhGbkCuEfcFLwBiS5bgd87mGKryacFGKyUVu1LmJrXypYq7LzfvBXsY832Bf1UnGyQiRwAWrwzU8CvG2S?cluster=devnet",
+      "namespace": "prkt-proof",
+      "parts": [
+        "3pGQvVaNYh8eeorRkkvDJwSzZE19Rfkc17H1Q1dJh4DdW4bT6HmdddiQn9GTrz8VNx2JtW6jUjgwqUqGp5rGNZn2"
+      ],
+      "payload": {
+        "attestation": {
+          "agentId": "matrix-advanced-06706488",
+          "checks": {
+            "allowlist": {
+              "passed": true,
+              "program": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+            },
+            "killSwitch": {
+              "active": false,
+              "passed": true
+            },
+            "spendLimit": {
+              "limitLamports": "250000000",
+              "passed": true,
+              "requestedLamports": "0",
+              "spentLamports": "0"
+            },
+            "ttl": {
+              "expiresAt": 1773408832859,
+              "now": 1773407032859,
+              "passed": true
+            }
+          },
+          "intentHash": "436b49ec09f44b2762f3a1be0367301ae2b2bf6cefe7e283469140e3aa6df91e",
+          "policyHash": "73909dce4284317bda7911e578d2c646c3c1f4f90936f5353ec4abcbd97d4fe1",
+          "prover": "PRKT-LOCAL-v1",
+          "timestamp": 1773407032859
+        },
+        "publicKey": "5zSv9ce7yBgwpTvb46F3S3KK8eBAoACGjq48bbyoqu1q",
+        "signature": "Fi21loOirH8l9+mRo8TIKpBitciVyZ5MmKIZebXEuTpfua4xrMNnSWDdFoiNf248Yz+b9kyfrcdI4wW65sa3CQ==",
+        "txSignature": "3pGQvVaNYh8eeorRkkvDJwSzZE19Rfkc17H1Q1dJh4DdW4bT6HmdddiQn9GTrz8VNx2JtW6jUjgwqUqGp5rGNZn2"
+      },
+      "signature": "61vdf6EJhGbkCuEfcFLwBiS5bgd87mGKryacFGKyUVu1LmJrXypYq7LzfvBXsY832Bf1UnGyQiRwAWrwzU8CvG2S",
+      "slot": 448197984,
+      "storedAt": 1773407039448
+    },
+    {
+      "address": "14ZC5DfmunXpLeDPULsQ9dHPYywB3uRQro9uqe4A9zVF",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/YaZaMBwZkuRhmz6SaB7S2p1298Da2QrynoxAVxGrKeeUwbjfuk4SVkAKsxSPbDFwTSV9JJ5LyBbgZfYt7jGxUBi?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "matrix-advanced-06706488",
+        "1773407039449",
+        "8be0a9b991548e440e4cefaf95813cde1f979efeda070107d61499c3226c8242"
+      ],
+      "payload": {
+        "a": "matrix-advanced-06706488",
+        "i": "EXECUTE",
+        "ok": 1,
+        "s": "success",
+        "t": 1773407039449,
+        "tx": "3pGQvVaNYh8eeorRkkvDJwSzZE19Rfkc17H1Q1dJh4DdW4bT6HmdddiQn9GTrz8VNx2JtW6jUjgwqUqGp5rGNZn2"
+      },
+      "signature": "YaZaMBwZkuRhmz6SaB7S2p1298Da2QrynoxAVxGrKeeUwbjfuk4SVkAKsxSPbDFwTSV9JJ5LyBbgZfYt7jGxUBi",
+      "slot": 448198000,
+      "storedAt": 1773407046512
+    },
+    {
+      "address": "12nJWFMVYSJMJUXo3f394CPFpbcRCczdQaezy38ezN3W",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453433031",
+      "explorerUrl": "https://explorer.solana.com/tx/2LEvzbNuHz7nAszkGEuWEj12tTewwx8PkhBwZqWSr4jDqD266iDxPU6ZJssxEU9EVJA8AiSMr3ZQC3qd5RaUC4W2?cluster=devnet",
+      "namespace": "prkt-session-close",
+      "parts": [
+        "9c3a1a2f-b0e5-413e-a041-db08608b2e81"
+      ],
+      "payload": {
+        "entryCount": 1,
+        "event": "SESSION_CLOSE",
+        "logHash": "9ceea6325e86de50653bf13227ae6dc03d4747a746a7865a0975a99d5ec2d533",
+        "prkt": 1,
+        "sessionId": "9c3a1a2f-b0e5-413e-a041-db08608b2e81",
+        "ts": 1773407046514
+      },
+      "signature": "2LEvzbNuHz7nAszkGEuWEj12tTewwx8PkhBwZqWSr4jDqD266iDxPU6ZJssxEU9EVJA8AiSMr3ZQC3qd5RaUC4W2",
+      "slot": 448198015,
+      "storedAt": 1773407051209
+    },
+    {
+      "address": "1x2viMp4kJvAiWPNFeeSgBY9gJEDUyZ9pAJyEcYxoPx",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b54504f4c31",
+      "explorerUrl": "https://explorer.solana.com/tx/5f2bdGwFDgZvFhyhpLaGeVYp3fybFyTFV6GH27UxemDRzQLZ9iyjmshNgWB3vXsf1PQ1NfJubo7SB6dwwu52yUub?cluster=devnet",
+      "namespace": "prkt-policy",
+      "parts": [
+        "matrix-advanced-23167738",
+        "1773423446692"
+      ],
+      "payload": {
+        "a": "matrix-advanced-23167738",
+        "d": "250000000",
+        "k": 0,
+        "l": [
+          "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+        ],
+        "r": 1773423446692,
+        "s": 30,
+        "t": "0",
+        "u": 1773423446692
+      },
+      "signature": "5f2bdGwFDgZvFhyhpLaGeVYp3fybFyTFV6GH27UxemDRzQLZ9iyjmshNgWB3vXsf1PQ1NfJubo7SB6dwwu52yUub",
+      "slot": 448241250,
+      "storedAt": 1773423453401
+    },
+    {
+      "address": "1WWtUaBCFqSs9nN9AyQnMFBiHmCZRGpHHUdwTMpM1Zs",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453533031",
+      "explorerUrl": "https://explorer.solana.com/tx/4TqSzL5ocbg8jnyqYjTU2UbqEdALTPSEpfe75p7EGA1zzM9UNe5QuFgkxCFAFuuuYzmcXwTrR2ybUWWGLYR98zPq?cluster=devnet",
+      "namespace": "prkt-session-start",
+      "parts": [
+        "6e77e0b9-be66-4128-9964-708833741b46"
+      ],
+      "payload": {
+        "agentId": "matrix-advanced-23167738",
+        "event": "SESSION_START",
+        "prkt": 1,
+        "sessionId": "6e77e0b9-be66-4128-9964-708833741b46",
+        "ts": 1773423453632
+      },
+      "signature": "4TqSzL5ocbg8jnyqYjTU2UbqEdALTPSEpfe75p7EGA1zzM9UNe5QuFgkxCFAFuuuYzmcXwTrR2ybUWWGLYR98zPq",
+      "slot": 448241267,
+      "storedAt": 1773423459726
+    },
+    {
+      "address": "14FKNdXcAFxSs4dv6E25TYfXj62aqoJBhhRxr7tSmakR",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5450524631",
+      "explorerUrl": "https://explorer.solana.com/tx/54MvxaAk4FvGPhL2PHGV5KWv9JYAHvFSQaXeGfaQ12tqhAZ4wjgXuLfcjpzvNQyFafQMqrmY911f94NX6KZpebGa?cluster=devnet",
+      "namespace": "prkt-proof",
+      "parts": [
+        "2tnubBCcCzBoeViJshGF6a6P9y8thax3efwU3nUTQYDg4DwhxRget1hgQAFWNr6JfbRLV26KjpWpkMfiw6GSuV8p"
+      ],
+      "payload": {
+        "attestation": {
+          "agentId": "matrix-advanced-23167738",
+          "checks": {
+            "allowlist": {
+              "passed": true,
+              "program": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+            },
+            "killSwitch": {
+              "active": false,
+              "passed": true
+            },
+            "spendLimit": {
+              "limitLamports": "250000000",
+              "passed": true,
+              "requestedLamports": "0",
+              "spentLamports": "0"
+            },
+            "ttl": {
+              "expiresAt": 1773425259956,
+              "now": 1773423459957,
+              "passed": true
+            }
+          },
+          "intentHash": "3487a8a7390772ddd85b5de890da2c625975a707bebff1cb76caf3d8f083d8db",
+          "policyHash": "565ffac80d3efcab015eb0128bee341cc59cfd3bec629e275f4a87cce5e2e42b",
+          "prover": "PRKT-LOCAL-v1",
+          "timestamp": 1773423459957
+        },
+        "publicKey": "piALiesuCn1QtPaRYwnsMPjA4MgvioKzRCr5XR6fm6q",
+        "signature": "W3BJE3YxZx2nY+GNOOjA5JEXgdBx/VOSgOqFtbrKA/hfV47IIzSLRCg/Mk8ImvtLhKjdeAWcGC5cafhjiTxcDg==",
+        "txSignature": "2tnubBCcCzBoeViJshGF6a6P9y8thax3efwU3nUTQYDg4DwhxRget1hgQAFWNr6JfbRLV26KjpWpkMfiw6GSuV8p"
+      },
+      "signature": "54MvxaAk4FvGPhL2PHGV5KWv9JYAHvFSQaXeGfaQ12tqhAZ4wjgXuLfcjpzvNQyFafQMqrmY911f94NX6KZpebGa",
+      "slot": 448241286,
+      "storedAt": 1773423466777
+    },
+    {
+      "address": "14SHh3fYSfVAHi6B9BLFQRewEdM5ygPGMv5qXU6oQw7N",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/3nqSPZi8K4FAZmgsTTmDjjxhm95xRaG1copUK7Sd4yifpmYfPydP7MbKMGDnaN8Nxg5WPRvGjFs6CwufkCCsgmso?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "matrix-advanced-23167738",
+        "1773423466779",
+        "e3bdf9353a518767fd3912318ef2b58b053668b62eea3da22f6f312ecf8f9ff6"
+      ],
+      "payload": {
+        "a": "matrix-advanced-23167738",
+        "i": "EXECUTE",
+        "ok": 1,
+        "s": "success",
+        "t": 1773423466779,
+        "tx": "2tnubBCcCzBoeViJshGF6a6P9y8thax3efwU3nUTQYDg4DwhxRget1hgQAFWNr6JfbRLV26KjpWpkMfiw6GSuV8p"
+      },
+      "signature": "3nqSPZi8K4FAZmgsTTmDjjxhm95xRaG1copUK7Sd4yifpmYfPydP7MbKMGDnaN8Nxg5WPRvGjFs6CwufkCCsgmso",
+      "slot": 448241299,
+      "storedAt": 1773423472046
+    },
+    {
+      "address": "147dowdk7yxw8sqSW671nNqrBq65ADfTn91YjmmBHs8z",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453433031",
+      "explorerUrl": "https://explorer.solana.com/tx/t2meQuGSmRcg1yeNR4Dn6xJhFV1ByEztSkoFHDR25AKDiTnsiYSm5CRWFHSD4DYJDL6gkhxnGYted9CYP6NExNG?cluster=devnet",
+      "namespace": "prkt-session-close",
+      "parts": [
+        "6e77e0b9-be66-4128-9964-708833741b46"
+      ],
+      "payload": {
+        "entryCount": 1,
+        "event": "SESSION_CLOSE",
+        "logHash": "c3e646eef333a21073c3c9b9874f7445fdfd12073831a9381a0e51eecfbe4184",
+        "prkt": 1,
+        "sessionId": "6e77e0b9-be66-4128-9964-708833741b46",
+        "ts": 1773423472047
+      },
+      "signature": "t2meQuGSmRcg1yeNR4Dn6xJhFV1ByEztSkoFHDR25AKDiTnsiYSm5CRWFHSD4DYJDL6gkhxnGYted9CYP6NExNG",
+      "slot": 448241314,
+      "storedAt": 1773423477537
+    },
+    {
+      "address": "13ZUjVF5mX8n9ZucrrB7MY4XQHHo568NFXKHHNxhtTBu",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b54504f4c31",
+      "explorerUrl": "https://explorer.solana.com/tx/3hHqBvRD2GCXsHo7GRLwxTwW2Ge7XZZ5n7q1greo2ZL9teG1Yu3WfpuoK2epurcNgU7tGpuiWB9myGcxToXwDiyP?cluster=devnet",
+      "namespace": "prkt-policy",
+      "parts": [
+        "devnet-agent-1773423555327",
+        "1773423557607"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773423555327",
+        "d": "2000000000",
+        "k": 0,
+        "l": [
+          "11111111111111111111111111111111"
+        ],
+        "r": 1773423557607,
+        "s": 60,
+        "t": "0",
+        "u": 1773423557607
+      },
+      "signature": "3hHqBvRD2GCXsHo7GRLwxTwW2Ge7XZZ5n7q1greo2ZL9teG1Yu3WfpuoK2epurcNgU7tGpuiWB9myGcxToXwDiyP",
+      "slot": 448241537,
+      "storedAt": 1773423563484
+    },
+    {
+      "address": "14aEikjXVURdn4vqkkutxK5wnxQnj6Y87ueEVhsB46XQ",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453533031",
+      "explorerUrl": "https://explorer.solana.com/tx/YksjEGrNwDU8aaAjeuwuPqNvpPXw5VGdFphS8XpYwbRDFCWGzh8wfGrgQZmHr4rcsbBh9eshQ8RkhHp94jzUGUA?cluster=devnet",
+      "namespace": "prkt-session-start",
+      "parts": [
+        "aff43a46-8629-43ae-94f5-7ee3eba24850"
+      ],
+      "payload": {
+        "agentId": "devnet-agent-1773423555327",
+        "event": "SESSION_START",
+        "prkt": 1,
+        "sessionId": "aff43a46-8629-43ae-94f5-7ee3eba24850",
+        "ts": 1773423563490
+      },
+      "signature": "YksjEGrNwDU8aaAjeuwuPqNvpPXw5VGdFphS8XpYwbRDFCWGzh8wfGrgQZmHr4rcsbBh9eshQ8RkhHp94jzUGUA",
+      "slot": 448241550,
+      "storedAt": 1773423568435
+    },
+    {
+      "address": "14a1EjUCgWCuKgaP1BgUXQqtwfVzNES4BVfBsPL2TUhV",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5450524631",
+      "explorerUrl": "https://explorer.solana.com/tx/3VQgV3GTYHqMsbUE6iAfMcp9KdAJKM67kwTtRVEbQrEc4qXUbnSbjhML1TfF6XPm939zbQJ2TJHQBnTAzvfH6HaB?cluster=devnet",
+      "namespace": "prkt-proof",
+      "parts": [
+        "3kvt5ofcPnz5Gznn5qTAg2YAutmCPvaAnBd52D1Wa2LjAuUSb2bp3Wzf8DeAy4SG4duepSbK2MQVyCzWGAUYUWPk"
+      ],
+      "payload": {
+        "attestation": {
+          "agentId": "devnet-agent-1773423555327",
+          "checks": {
+            "allowlist": {
+              "passed": true,
+              "program": "11111111111111111111111111111111"
+            },
+            "killSwitch": {
+              "active": false,
+              "passed": true
+            },
+            "spendLimit": {
+              "limitLamports": "2000000000",
+              "passed": true,
+              "requestedLamports": "100000000",
+              "spentLamports": "0"
+            },
+            "ttl": {
+              "expiresAt": 1773427168756,
+              "now": 1773423568757,
+              "passed": true
+            }
+          },
+          "intentHash": "27880c4f19f9f150a16ccbe40b57e69461c6e94f7b4237d20fc79ed304a49ce7",
+          "policyHash": "5d09d930405596796325a8ea07b444ed262f6ab08434fddfd53eb9e8e4d471b8",
+          "prover": "PRKT-LOCAL-v1",
+          "timestamp": 1773423568757
+        },
+        "publicKey": "6LM3veyVGYbAcAxicbetThnzMtPLQTCVNy9dkGSUB4BQ",
+        "signature": "QYxUTcTkSnQ1XV9Yerr/TLf0puY7SGD0Xvp5AgSdBPP40J5g/V9EC/sBR5srgVrZy9+bQS+uDIl08BbBTh+PCA==",
+        "txSignature": "3kvt5ofcPnz5Gznn5qTAg2YAutmCPvaAnBd52D1Wa2LjAuUSb2bp3Wzf8DeAy4SG4duepSbK2MQVyCzWGAUYUWPk"
+      },
+      "signature": "3VQgV3GTYHqMsbUE6iAfMcp9KdAJKM67kwTtRVEbQrEc4qXUbnSbjhML1TfF6XPm939zbQJ2TJHQBnTAzvfH6HaB",
+      "slot": 448241569,
+      "storedAt": 1773423575599
+    },
+    {
+      "address": "12SyKLzRqeFQZYpqczxMFRQyMRFxizD2Cc6U1a6HcjhN",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/4iNKp74UcSpSghJ3RyJTnT9XkPf5bSFGaccUwt3thrtEwz7y6EaNRhZTcgy3FxvyizVCjJZUh3Wg2LZ7C6PYqwLp?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "devnet-agent-1773423555327",
+        "1773423575600",
+        "26713033d60a190672744848f3eb27e171705df1100ee5e658e323d8e646ce1d"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773423555327",
+        "i": "EXECUTE",
+        "ok": 1,
+        "s": "success",
+        "t": 1773423575600,
+        "tx": "3kvt5ofcPnz5Gznn5qTAg2YAutmCPvaAnBd52D1Wa2LjAuUSb2bp3Wzf8DeAy4SG4duepSbK2MQVyCzWGAUYUWPk"
+      },
+      "signature": "4iNKp74UcSpSghJ3RyJTnT9XkPf5bSFGaccUwt3thrtEwz7y6EaNRhZTcgy3FxvyizVCjJZUh3Wg2LZ7C6PYqwLp",
+      "slot": 448241584,
+      "storedAt": 1773423581453
+    },
+    {
+      "address": "13CLhqPh5BtSP4nu55JVD4WeAzG3sUW7NVZEWD8b2c4h",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5450524631",
+      "explorerUrl": "https://explorer.solana.com/tx/4Ao2D3pQKZHPLAmiHEsdioyCXXZ2pZHhuTFau8TiJC7gM7qUiPvm69EegPKUEdXV7bkjBt1hb8QyDKiBTRkU3UQY?cluster=devnet",
+      "namespace": "prkt-proof",
+      "parts": [
+        "2As1VmiMMxSgZ2WAsvUVt8sMkFXbFh3ZJ2eZDc3Dc9iXvHjnmg5T2psiBsqiJfyzg3de51aCaz2KJYV63ZcoLyeD"
+      ],
+      "payload": {
+        "attestation": {
+          "agentId": "devnet-agent-1773423555327",
+          "checks": {
+            "allowlist": {
+              "passed": true,
+              "program": "11111111111111111111111111111111"
+            },
+            "killSwitch": {
+              "active": false,
+              "passed": true
+            },
+            "spendLimit": {
+              "limitLamports": "2000000000",
+              "passed": true,
+              "requestedLamports": "1000000000",
+              "spentLamports": "100000000"
+            },
+            "ttl": {
+              "expiresAt": 1773427182128,
+              "now": 1773423582128,
+              "passed": true
+            }
+          },
+          "intentHash": "a4fdc36f07c78289f4de5788db0c95d1d933922fab1081f66967768dca352b0e",
+          "policyHash": "f0a0670ddee91e0c457344999a3c72da626e5d4dec6551fe861d289cb9624456",
+          "prover": "PRKT-LOCAL-v1",
+          "timestamp": 1773423582128
+        },
+        "publicKey": "6LM3veyVGYbAcAxicbetThnzMtPLQTCVNy9dkGSUB4BQ",
+        "signature": "sYRjxrYQOJ3lQDYEi2FGUKRcU5EIziaA6AA6fu6RC7r7s9n7A5EJ3s/40wNiQVAulycR4HSMBN0qbjCKVY9LCA==",
+        "txSignature": "2As1VmiMMxSgZ2WAsvUVt8sMkFXbFh3ZJ2eZDc3Dc9iXvHjnmg5T2psiBsqiJfyzg3de51aCaz2KJYV63ZcoLyeD"
+      },
+      "signature": "4Ao2D3pQKZHPLAmiHEsdioyCXXZ2pZHhuTFau8TiJC7gM7qUiPvm69EegPKUEdXV7bkjBt1hb8QyDKiBTRkU3UQY",
+      "slot": 448241606,
+      "storedAt": 1773423589764
+    },
+    {
+      "address": "12mtH6CyzWw1yKPVQusNN7xFAWpbtEZ5NUziebr1oNAj",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/ipHM7RdVw1yjxwx3neFV7a3nwicF5GDVDMus5qXS3H8by5d2B4ch5YJxhjwo8cTm3Y7yw7DRrHXQYMPUz2JCRj4?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "devnet-agent-1773423555327",
+        "1773423589766",
+        "bde94e828777c609101773f0f37be64a3308d18c6b33e35f997f36ece9dbe91b"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773423555327",
+        "i": "EXECUTE",
+        "ok": 1,
+        "s": "success",
+        "t": 1773423589766,
+        "tx": "2As1VmiMMxSgZ2WAsvUVt8sMkFXbFh3ZJ2eZDc3Dc9iXvHjnmg5T2psiBsqiJfyzg3de51aCaz2KJYV63ZcoLyeD"
+      },
+      "signature": "ipHM7RdVw1yjxwx3neFV7a3nwicF5GDVDMus5qXS3H8by5d2B4ch5YJxhjwo8cTm3Y7yw7DRrHXQYMPUz2JCRj4",
+      "slot": 448241621,
+      "storedAt": 1773423595158
+    },
+    {
+      "address": "13bNZYPM4k1Wjb6D4ZiqjnTJkuFY3dXbqZDTkLM6MWLF",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/5ctiGotf7xzWLfTV9BRmsVoBJQzGLiE7BzLpFq2huknZAH2f68rz88UjuLx8nqyx2de9qi2654qpPBenPLXZpa7k?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "devnet-agent-1773423555327",
+        "1773423595496",
+        "1f1d7ac4563af62de1f9ae959b0f09538b1304783b10723c02efa8de04839663"
+      ],
+      "payload": {
+        "a": "devnet-agent-1773423555327",
+        "i": "EXECUTE_EVM",
+        "ok": 0,
+        "r": "DAILY_LIMIT_EXCEEDED",
+        "s": "skipped",
+        "t": 1773423595496
+      },
+      "signature": "5ctiGotf7xzWLfTV9BRmsVoBJQzGLiE7BzLpFq2huknZAH2f68rz88UjuLx8nqyx2de9qi2654qpPBenPLXZpa7k",
+      "slot": 448241637,
+      "storedAt": 1773423600871
+    },
+    {
+      "address": "14XkXS33Kgf6DiZrPypdimRG73wKWx6b463kEWeHvHVT",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453433031",
+      "explorerUrl": "https://explorer.solana.com/tx/3F4r3Vyj1jZ9hCaMXWX6NDmKjuv48AAi1zJttnsrMjDmMiDioWKDecWJ6DVaDPhr37G51tfFachShF9ig861hK4m?cluster=devnet",
+      "namespace": "prkt-session-close",
+      "parts": [
+        "aff43a46-8629-43ae-94f5-7ee3eba24850"
+      ],
+      "payload": {
+        "entryCount": 3,
+        "event": "SESSION_CLOSE",
+        "logHash": "7a6c984c21b51f37260ac37568d3960212f45f1987365b1ff7c59ca1eb429bb9",
+        "prkt": 1,
+        "sessionId": "aff43a46-8629-43ae-94f5-7ee3eba24850",
+        "ts": 1773423600873
+      },
+      "signature": "3F4r3Vyj1jZ9hCaMXWX6NDmKjuv48AAi1zJttnsrMjDmMiDioWKDecWJ6DVaDPhr37G51tfFachShF9ig861hK4m",
+      "slot": 448241651,
+      "storedAt": 1773423606458
+    },
+    {
+      "address": "14u3kyfBB1C77xbeKhHZJASGY7wV7cg1sN1FXK2TNk4g",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b54504f4c31",
+      "explorerUrl": "https://explorer.solana.com/tx/5QxX18MyX8WLMspMittETf3jBxmyNw3h4rxa2LrAu9LY9vCMGXFjTg5NRWs99T57okYHf5FAiw6Lsx8R51kTHJf4?cluster=devnet",
+      "namespace": "prkt-policy",
+      "parts": [
+        "matrix-advanced-23549042",
+        "1773423813272"
+      ],
+      "payload": {
+        "a": "matrix-advanced-23549042",
+        "d": "250000000",
+        "k": 0,
+        "l": [
+          "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+        ],
+        "r": 1773423813272,
+        "s": 30,
+        "t": "0",
+        "u": 1773423813272
+      },
+      "signature": "5QxX18MyX8WLMspMittETf3jBxmyNw3h4rxa2LrAu9LY9vCMGXFjTg5NRWs99T57okYHf5FAiw6Lsx8R51kTHJf4",
+      "slot": 448242210,
+      "storedAt": 1773423818410
+    },
+    {
+      "address": "12hFrmueiWAcQPoa1h6fyEeX19zAoJEsqKZVAJfsXmqX",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453533031",
+      "explorerUrl": "https://explorer.solana.com/tx/59SZtzyPzwwzd7PGVNqbF1KuRomKLUTV22P9LoWqBR3pey96UrcSDnKXjiBPcsPGBfbb9zzfSK5jA7qs89E2LPrq?cluster=devnet",
+      "namespace": "prkt-session-start",
+      "parts": [
+        "49dd8cdf-e52a-4e06-b0bc-5135f1944de8"
+      ],
+      "payload": {
+        "agentId": "matrix-advanced-23549042",
+        "event": "SESSION_START",
+        "prkt": 1,
+        "sessionId": "49dd8cdf-e52a-4e06-b0bc-5135f1944de8",
+        "ts": 1773423818630
+      },
+      "signature": "59SZtzyPzwwzd7PGVNqbF1KuRomKLUTV22P9LoWqBR3pey96UrcSDnKXjiBPcsPGBfbb9zzfSK5jA7qs89E2LPrq",
+      "slot": 448242226,
+      "storedAt": 1773423824085
+    },
+    {
+      "address": "126MyWMwKLS2LLofjTNRgASSx8zwSqe8183nvyRH4Fwd",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5450524631",
+      "explorerUrl": "https://explorer.solana.com/tx/4qarrZL7gh2jhMUKE6HeJxvvSmsJ8GR1zrSGB1eFDhVzSYBe73hnbKrCeARmWmQRnHd9NEtMynPtEd4eKvH8vLiN?cluster=devnet",
+      "namespace": "prkt-proof",
+      "parts": [
+        "5K6JgndWx3mwjXjrEZDLhJDfmq8czwmH3oXsGTCupMQAHpSWT6qGnKGdDFUELAZQFrU1g2FMrtgDYBwvXbGMNto5"
+      ],
+      "payload": {
+        "attestation": {
+          "agentId": "matrix-advanced-23549042",
+          "checks": {
+            "allowlist": {
+              "passed": true,
+              "program": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+            },
+            "killSwitch": {
+              "active": false,
+              "passed": true
+            },
+            "spendLimit": {
+              "limitLamports": "250000000",
+              "passed": true,
+              "requestedLamports": "0",
+              "spentLamports": "0"
+            },
+            "ttl": {
+              "expiresAt": 1773425624257,
+              "now": 1773423824257,
+              "passed": true
+            }
+          },
+          "intentHash": "57e5942eb6456fd4706933a28e533c0e21f28510165f8c42f987b6180f77c6e1",
+          "policyHash": "144f5657e9794922dd8a8b81beb0fed7bbab0f0ebed1c959f3369a6dbf241fad",
+          "prover": "PRKT-LOCAL-v1",
+          "timestamp": 1773423824257
+        },
+        "publicKey": "MCZHh7sHpg8rMh77NP2KzUSJRucDoqibomWvfqWm93N",
+        "signature": "qXrpK1igiI8s8dVknPd/wzeplslhlGoHxlm6GosO52yW17fGWuxzJH73YWJO2CmT6lEU1GJuAYao6XTnIPfODQ==",
+        "txSignature": "5K6JgndWx3mwjXjrEZDLhJDfmq8czwmH3oXsGTCupMQAHpSWT6qGnKGdDFUELAZQFrU1g2FMrtgDYBwvXbGMNto5"
+      },
+      "signature": "4qarrZL7gh2jhMUKE6HeJxvvSmsJ8GR1zrSGB1eFDhVzSYBe73hnbKrCeARmWmQRnHd9NEtMynPtEd4eKvH8vLiN",
+      "slot": 448242244,
+      "storedAt": 1773423830886
+    },
+    {
+      "address": "1XGYCkgBCjVq6zXk2zLtEoBGo8NLDnzdzM1Z4bXY4dM",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5441554431",
+      "explorerUrl": "https://explorer.solana.com/tx/2EebCQ4QitRcTbrvYqsyzHqWfqMPy69L7DuRb2MmBgZDaCUibLsr8LcFzHQWRD49RcQepggtySxDvbiUcbNugm2Z?cluster=devnet",
+      "namespace": "prkt-audit",
+      "parts": [
+        "matrix-advanced-23549042",
+        "1773423830888",
+        "790c58e7811422e7fc58bf9f8771d57748fab089f5ac3e5ca33258e92fc50fc6"
+      ],
+      "payload": {
+        "a": "matrix-advanced-23549042",
+        "i": "EXECUTE",
+        "ok": 1,
+        "s": "success",
+        "t": 1773423830888,
+        "tx": "5K6JgndWx3mwjXjrEZDLhJDfmq8czwmH3oXsGTCupMQAHpSWT6qGnKGdDFUELAZQFrU1g2FMrtgDYBwvXbGMNto5"
+      },
+      "signature": "2EebCQ4QitRcTbrvYqsyzHqWfqMPy69L7DuRb2MmBgZDaCUibLsr8LcFzHQWRD49RcQepggtySxDvbiUcbNugm2Z",
+      "slot": 448242257,
+      "storedAt": 1773423836420
+    },
+    {
+      "address": "14fuaPCJqhFCunNPDm76c1eNgvhEk1xpMDXBWoJWQaL2",
+      "anchorMode": "light-commitment",
+      "discriminatorHex": "50524b5453433031",
+      "explorerUrl": "https://explorer.solana.com/tx/4kK9BGFspR1VT5zyChiAe13G7YnUhLtfW58z4VziXK3s4RQFea65ddMrRzV9BQQE3KmP581TrYpFwFzA4t4JVPdz?cluster=devnet",
+      "namespace": "prkt-session-close",
+      "parts": [
+        "49dd8cdf-e52a-4e06-b0bc-5135f1944de8"
+      ],
+      "payload": {
+        "entryCount": 1,
+        "event": "SESSION_CLOSE",
+        "logHash": "6acdb8fbceb174cc4648f5b6709eeb2517e8bbf17d00ffb1420dfb910626ce86",
+        "prkt": 1,
+        "sessionId": "49dd8cdf-e52a-4e06-b0bc-5135f1944de8",
+        "ts": 1773423836423
+      },
+      "signature": "4kK9BGFspR1VT5zyChiAe13G7YnUhLtfW58z4VziXK3s4RQFea65ddMrRzV9BQQE3KmP581TrYpFwFzA4t4JVPdz",
+      "slot": 448242272,
+      "storedAt": 1773423842265
+    }
+  ]
+}

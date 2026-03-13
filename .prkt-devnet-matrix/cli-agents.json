@@ -1,0 +1,306 @@
+{
+  "agents": [
+    {
+      "createdAtIso": "2026-03-12T17:05:59.578Z",
+      "name": "matrix-wallet-35127950",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-wallet-35127950"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:07:15.797Z",
+      "name": "matrix-agent-35127950",
+      "ownerId": "matrix-owner-35127950",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-agent-35127950"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:20:32.996Z",
+      "name": "matrix-wallet-36000226",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-wallet-36000226"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:21:55.008Z",
+      "name": "matrix-agent-36000226",
+      "ownerId": "matrix-owner-36000226",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-agent-36000226",
+      "lastAction": "memo-heartbeat:run-once",
+      "lastRunAtIso": "2026-03-12T17:24:43.454Z",
+      "lastSignature": "2AmALPHUw11tQinCdnqPW6B9SwnTw47aMBxsnMiCdLeEuibV16b39QxhrEzWPVu6wbgEruzrkh4PaiTMpiPhF3oj"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:29:10.494Z",
+      "name": "matrix-wallet-36508668",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-wallet-36508668"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:30:38.978Z",
+      "name": "matrix-agent-36508668",
+      "ownerId": "matrix-owner-36508668",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-agent-36508668",
+      "lastAction": "memo-heartbeat:run-once",
+      "lastRunAtIso": "2026-03-12T17:33:13.224Z",
+      "lastSignature": "kaxKxD23TTkUQKT66n63aesAcRkbwtdLpEhsa9QXEZaHh4TVAKSURXxTRCrunRgdYEbeESetq1hok3pTo5JwoEX"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:38:56.423Z",
+      "name": "matrix-wallet-37096725",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-wallet-37096725"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:41:29.757Z",
+      "name": "matrix-wallet-37251297",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-wallet-37251297"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:44:20.325Z",
+      "name": "matrix-wallet-37420137",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-wallet-37420137"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:48:09.381Z",
+      "name": "matrix-wallet-37650148",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-wallet-37650148"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:43:28.145Z",
+      "name": "matrix-wallet-05765870",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-wallet-05765870"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:45:08.074Z",
+      "name": "matrix-agent-05765870",
+      "ownerId": "matrix-owner-05765870",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-agent-05765870",
+      "lastAction": "memo-heartbeat:run-once",
+      "lastRunAtIso": "2026-03-13T12:47:51.635Z",
+      "lastSignature": "2qjKCFNqyLJBX11pHVwat8Eg2NsZ26n3LhDGyxc3rtEtCX6LSosNsaZHFba1aERuBYZQR62cPrNSQtW85vqPgDf4"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:51:16.917Z",
+      "name": "matrix-wallet-06244796",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-wallet-06244796"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:52:28.563Z",
+      "name": "matrix-agent-06244796",
+      "ownerId": "matrix-owner-06244796",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-agent-06244796",
+      "lastAction": "memo-heartbeat:run-once",
+      "lastRunAtIso": "2026-03-13T12:54:37.401Z",
+      "lastSignature": "3ah3qbFoxcuoVeSw1sypEoLRCVc47tWmJrR7jAg8myTAhAWGz6sN4zwdQE8tTSSsfCc87qjcKTa1C73PsDGWm7Tz"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:58:59.379Z",
+      "name": "matrix-wallet-06706488",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-wallet-06706488"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:00:15.487Z",
+      "name": "matrix-agent-06706488",
+      "ownerId": "matrix-owner-06706488",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "stopped",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-agent-06706488",
+      "lastAction": "memo-heartbeat:run-once",
+      "lastRunAtIso": "2026-03-13T13:02:41.696Z",
+      "lastSignature": "5YfnZn2j7XaZgCvpkCixzmqo23TbjGyJ8VbucKAm9pPHhGhBCNxmGtN9RsYdJEYZpjb8mrLmv71GoYz8vhzpTiAY"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:04:27.760Z",
+      "name": "matrix-gasless-06706488",
+      "ownerId": "matrix-owner-06706488",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-gasless-06706488"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:04:30.352Z",
+      "name": "simulate-attack",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "simulate-attack"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:04:33.087Z",
+      "name": "defi-suite",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "defi-suite"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:04:41.841Z",
+      "name": "agent-autonomous-wallet",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "agent-autonomous-wallet"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:04:53.091Z",
+      "name": "autonomous-portfolio-devnet",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "autonomous-portfolio-devnet"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:05:16.519Z",
+      "name": "marinade-live-devnet",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "marinade-live-devnet"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:05:27.007Z",
+      "name": "orca-live-devnet",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "orca-live-devnet"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:05:50.190Z",
+      "name": "kamino-live-devnet",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "kamino-live-devnet"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:33:21.368Z",
+      "name": "matrix-wallet-23167738",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-wallet-23167738"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:34:26.914Z",
+      "name": "matrix-agent-23167738",
+      "ownerId": "matrix-owner-23167738",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "stopped",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-agent-23167738",
+      "lastAction": "memo-heartbeat:run-once",
+      "lastRunAtIso": "2026-03-13T17:36:25.064Z",
+      "lastSignature": "61CfGu4T5e7aG8QTVgDPBhDBa56a5UUzbMuHHYJA4DgDePNS2sZDgGGx1qjidJ1R4VvUv4fkeTkheF18iMZKvCxd"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:38:12.108Z",
+      "name": "matrix-gasless-23167738",
+      "ownerId": "matrix-owner-23167738",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-gasless-23167738"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:39:38.212Z",
+      "name": "matrix-wallet-23549042",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-wallet-23549042"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:40:42.163Z",
+      "name": "matrix-agent-23549042",
+      "ownerId": "matrix-owner-23549042",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "stopped",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-agent-23549042",
+      "lastAction": "memo-heartbeat:run-once",
+      "lastRunAtIso": "2026-03-13T17:42:34.709Z",
+      "lastSignature": "3o5fpxeL4nheWWXiGwoim1CsSmb5duAyTXE71qwSSEYrLFHdGsPMGXhzEjQ4RCgzRxXKU6qqazUPEERvAF6rJins"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:44:16.688Z",
+      "name": "matrix-gasless-23549042",
+      "ownerId": "matrix-owner-23549042",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "matrix-gasless-23549042"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "activities": [
+    {
+      "createdAtIso": "2026-03-13T17:32:05.752Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T17:32:05.943Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T17:39:06.875Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    }
+  ]
+}

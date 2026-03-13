@@ -1,0 +1,84 @@
+{
+  "wallets": [
+    {
+      "createdAtIso": "2026-03-13T17:51:46.745Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "dXrijGo89D/nI0SqgEO2evbVXgpDUwf+YnW+b04Jn5H+VZjxfxkDd4YLWRwvMMyihDNwqd5Y0XbO/o7cQSQ+BQ==",
+        "iv": "Y9v9p3kIoP5dLCKX",
+        "tag": "evex5W3mcsADb2xUtufLtw=="
+      },
+      "name": "multi-agent-treasury",
+      "publicKey": "4C73KGGzPZ6NBVsQCfvevUd32FxSewyCrHJbFfujsqLg",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "MDDEAFnRxKzqMIene0jbvBqxGZ/0xQkUKB6SIEE8+Ra98DVUlG/eEhw+BKpaHXdX+L9lK5h5DNnRp1uhohFqmg==",
+        "iv": "I0xt72NRKhigcOpP",
+        "kdf": "scrypt",
+        "salt": "C6+zhSmnSM2LNsmDEuamwQ==",
+        "tag": "WrSFc4/tycUHRPDQOfeqLA=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T17:51:50.673Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "F/4svmHJEJ/2i1aV3RqgLB3eX6K1+0YcPTIXb5V9EW4NMBmmFhTXdkOlEMpuedwbuh8VRuxGQQxyfpnI4oBX9g==",
+        "iv": "gXf3dVaEV30ruZT7",
+        "tag": "C7uYh/VPn+oFOwn8UhpEvg=="
+      },
+      "name": "multi-agent-1",
+      "publicKey": "BZ4XXiV976iMpEbaof8FJv6ea3TYcQQmMakp3xnexzY5",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "swmD72v7aV/zZ+jZSfyomn/NCBu07cLm910srkPP6EoKY08GjZ2WIl7P9K7a8ovOmuuylAnwxcXTOPIyG8LBBw==",
+        "iv": "j62coAgo5Y18ImWL",
+        "kdf": "scrypt",
+        "salt": "yk47PaJ+RLrj4I+2ncOBQw==",
+        "tag": "T+G+ZaTpzx32wOJKb/v9ZA=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T17:51:50.711Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "ZPyCKegh6dHpTE4b0EK74hGqs5Aq/rln6Di7hXoGXZoz+tRKt/eeV8/7h7bBbV8NVbEw0LkLmqmgBZ5QRHZhnQ==",
+        "iv": "jmsB4UHdcywlM1DQ",
+        "tag": "gpB5VexAv4XnjH1xM+NcGQ=="
+      },
+      "name": "multi-agent-2",
+      "publicKey": "8w4tFwB9VrvdJvNNPJk76VzsjEK4RyeUA4CdEB5N2v3Z",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "shE0Eo077n4WJ1HBXorPbKN89oHvObiIklbfFGCcaxKMiShjCCgM7+aeLvs2GwONaqRQLJXi56oa7B4uBS9vmg==",
+        "iv": "068magPkfl/2ghqD",
+        "kdf": "scrypt",
+        "salt": "YNa2lYHQt82JEEfiWfxFag==",
+        "tag": "4QGHj65mqfvZwK3YkpbJMQ=="
+      },
+      "version": 2
+    },
+    {
+      "createdAtIso": "2026-03-13T17:51:50.750Z",
+      "encryptedSecretKey": {
+        "algorithm": "aes-256-gcm",
+        "ciphertext": "m31aSJRGlOXiHXZ3ZXdA8X5zvh5o1u+KCovzoAma4Fj2lnAEka/IPp74FDnOWJeCgse5Otkb0CWPLeRrfd9YUA==",
+        "iv": "xNiQqKcauZHLEs1Z",
+        "tag": "CedaatkXop17gyu4W7BUxg=="
+      },
+      "name": "multi-agent-3",
+      "publicKey": "3a3prWhy89CmN2TxvNkBvr46GBzcjTUmX3EQdUdyDGuL",
+      "recoveryPackage": {
+        "algorithm": "scrypt-aes-256-gcm",
+        "ciphertext": "zLegsbM6O8yz2p7TdLl/qPydjaK2PHtLvMTb+2UfIl+O5My0+ePaRG+kMEUxEKxNQC1dujxXkx2C8hEwjfno4Q==",
+        "iv": "c1lDf5WNVFVvMq2K",
+        "kdf": "scrypt",
+        "salt": "8Cw3JoSePfF79V106Lmy+A==",
+        "tag": "OIaU8ctV7HzsXkj4P/opgw=="
+      },
+      "version": 2
+    }
+  ]
+}

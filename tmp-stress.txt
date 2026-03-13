@@ -1,0 +1,65 @@
+﻿npx : bigint: Failed 
+to load bindings, pure 
+JS will be used (try 
+npm run rebuild?)
+At line:1 char:1
++ npx ts-node src/scrip
+ts/runStressTest.ts 
+2>&1 | Out-File 
+-FilePath C: ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (bigint: Faile   
+ d ...m run rebuild    
+?):String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Mode: SIMULATED (Concurrent harness with per-agent rate limits and circuit breaker)
+[runtime] Solana RPC: http://127.0.0.1:8899
+[runtime] Kora RPC: https://kora.devnet.lazorkit.com
+[runtime] Kora mock mode: true
+[runtime] Live swap path: false
+[runtime] Jupiter API: https://lite-api.jup.ag
+[stress] agent-1: Decision -> Policy Check -> Gasless Execution.
+[stress] agent-2: Decision -> Policy Check -> Gasless Execution.
+[stress] agent-3: Decision -> Policy Check -> Gasless Execution.
+[stress] agent-1: Executed mock gasless swap intent 9a2964473c06b1023ca6b20daab842fe5747eeaa096aaa02951a11e25dda0341
+[stress] agent-2: Executed mock gasless swap intent 8a965f5b417baaca9762f935bc7903739bc511448bc3b37af546abd5b6206d82
+[stress] agent-3: Executed mock gasless swap intent 6fd1f60697fa18b84b2e121e908e9dd69c2cabdc30b9b93afad584348bfa5c59
+[stress] agent-1: Decision -> Policy Check -> Gasless Execution.
+[stress] agent-2: Decision -> Policy Check -> Gasless Execution.
+[stress] agent-3: Decision -> Policy Check -> Gasless Execution.
+[stress] agent-1: Executed mock gasless swap intent 9a2964473c06b1023ca6b20daab842fe5747eeaa096aaa02951a11e25dda0341
+[stress] agent-2: Executed mock gasless swap intent 8a965f5b417baaca9762f935bc7903739bc511448bc3b37af546abd5b6206d82
+[stress] agent-3: Executed mock gasless swap intent 6fd1f60697fa18b84b2e121e908e9dd69c2cabdc30b9b93afad584348bfa5c59
+[stress] agent-1: blocked (rate limit exceeded: max 2 actions per 20000ms)
+[stress] agent-2: blocked (rate limit exceeded: max 2 actions per 20000ms)
+[stress] agent-3: blocked (rate limit exceeded: max 2 actions per 20000ms)
+[stress] agent-1: blocked (rate limit exceeded: max 2 actions per 20000ms)
+[stress] agent-2: blocked (rate limit exceeded: max 2 actions per 20000ms)
+[stress] agent-3: blocked (rate limit exceeded: max 2 actions per 20000ms)
+[stress] agent-1: blocked (rate limit exceeded: max 2 actions per 20000ms)
+[stress] agent-2: blocked (rate limit exceeded: max 2 actions per 20000ms)
+[stress] agent-3: blocked (rate limit exceeded: max 2 actions per 20000ms)
+Managed stress run complete.
+agent-1#1: execute_swap 9a2964473c06b1023ca6b20daab842fe5747eeaa096aaa02951a11e25dda0341
+agent-2#1: execute_swap 8a965f5b417baaca9762f935bc7903739bc511448bc3b37af546abd5b6206d82
+agent-3#1: execute_swap 6fd1f60697fa18b84b2e121e908e9dd69c2cabdc30b9b93afad584348bfa5c59
+agent-1#2: execute_swap 9a2964473c06b1023ca6b20daab842fe5747eeaa096aaa02951a11e25dda0341
+agent-2#2: execute_swap 8a965f5b417baaca9762f935bc7903739bc511448bc3b37af546abd5b6206d82
+agent-3#2: execute_swap 6fd1f60697fa18b84b2e121e908e9dd69c2cabdc30b9b93afad584348bfa5c59
+agent-1#3: blocked (rate limit exceeded: max 2 actions per 20000ms)
+agent-2#3: blocked (rate limit exceeded: max 2 actions per 20000ms)
+agent-3#3: blocked (rate limit exceeded: max 2 actions per 20000ms)
+agent-1#4: blocked (rate limit exceeded: max 2 actions per 20000ms)
+agent-2#4: blocked (rate limit exceeded: max 2 actions per 20000ms)
+agent-3#4: blocked (rate limit exceeded: max 2 actions per 20000ms)
+agent-1#5: blocked (rate limit exceeded: max 2 actions per 20000ms)
+agent-2#5: blocked (rate limit exceeded: max 2 actions per 20000ms)
+agent-3#5: blocked (rate limit exceeded: max 2 actions per 20000ms)

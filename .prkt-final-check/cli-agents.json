@@ -1,0 +1,44 @@
+{
+  "agents": [
+    {
+      "createdAtIso": "2026-03-13T17:51:46.748Z",
+      "name": "multi-agent-treasury",
+      "ownerId": "multi-agent-devnet",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "multi-agent-treasury"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:51:50.675Z",
+      "name": "multi-agent-1",
+      "ownerId": "multi-agent-devnet",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "multi-agent-1"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:51:50.713Z",
+      "name": "multi-agent-2",
+      "ownerId": "multi-agent-devnet",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "multi-agent-2"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:51:50.752Z",
+      "name": "multi-agent-3",
+      "ownerId": "multi-agent-devnet",
+      "policyMode": "sandbox",
+      "policyPreset": "auto-devnet-safe",
+      "status": "active",
+      "strategy": "memo-heartbeat",
+      "walletName": "multi-agent-3"
+    }
+  ]
+}

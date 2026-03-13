@@ -1,0 +1,10 @@
+[workspace]
+members = ["programs/policy_guard"]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+license = "ISC"
+
+[workspace.metadata.solana]
+program-id = "3sUkfLW4jtwSQFgdtWyEj8FPedtvKfXSB1J16PMUZhMG"

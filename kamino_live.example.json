@@ -1,0 +1,11 @@
+{
+  "actions": {
+    "borrowAmountRaw": "1000000",
+    "depositAmountRaw": "2000000"
+  },
+  "borrowMint": "REPLACE_WITH_DEVNET_BORROW_MINT",
+  "cluster": "devnet",
+  "depositMint": "REPLACE_WITH_DEVNET_DEPOSIT_MINT",
+  "marketAddress": "REPLACE_WITH_DEVNET_KAMINO_MARKET",
+  "programId": "REPLACE_WITH_KAMINO_PROGRAM_ID"
+}

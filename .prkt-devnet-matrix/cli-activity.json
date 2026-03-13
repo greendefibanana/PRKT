@@ -1,0 +1,1227 @@
+{
+  "activities": [
+    {
+      "createdAtIso": "2026-03-12T17:04:58.288Z",
+      "kind": "config",
+      "details": {
+        "action": "show"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:04:58.324Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:04:58.431Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:05:35.651Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:05:42.874Z",
+      "kind": "config",
+      "details": {
+        "action": "show"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:05:50.740Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:05:59.578Z",
+      "kind": "wallet",
+      "details": {
+        "action": "create",
+        "name": "matrix-wallet-35127950",
+        "publicKey": "7NwwVrSPvy86M9gX82QYVh2ezjaNazzYhxCb5quPsJEm"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:06:24.052Z",
+      "kind": "wallet",
+      "details": {
+        "action": "fund",
+        "amountSol": 1.2,
+        "method": "treasury-transfer",
+        "name": "matrix-wallet-35127950"
+      },
+      "signature": "5wzGoHt8SjLjtxu1uTtbSUVPLGKkpAHDenyF57drRjTUz9pzxm9wwLUJxfbZAcymQxCxZHNQW4b8dSa4Nz2q4YuH"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:06:46.558Z",
+      "kind": "token",
+      "details": {
+        "action": "mint-demo",
+        "amountRaw": "5000000",
+        "amountUi": 5,
+        "authority": "matrix-wallet-35127950",
+        "decimals": 6,
+        "mint": "Gp3v4ZXCAwwyrbRUGhaFvSfR4NUTu1orQLtmjLY5L84y"
+      },
+      "signature": "31cX4J8SzyrA4RUpy19c5uQCa6kB9mAZjpiTLTTvwNRjLTyGsmc3rYUwBdJpctdLNJ3oyuWi318ZnzYYAAfuidNL"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:07:15.798Z",
+      "kind": "agent",
+      "details": {
+        "action": "create",
+        "ownerId": "matrix-owner-35127950",
+        "wallet": "matrix-agent-35127950"
+      },
+      "agent": "matrix-agent-35127950"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:09:05.189Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:20:07.539Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:20:16.588Z",
+      "kind": "config",
+      "details": {
+        "action": "show"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:20:25.644Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:20:32.997Z",
+      "kind": "wallet",
+      "details": {
+        "action": "create",
+        "name": "matrix-wallet-36000226",
+        "publicKey": "Bbfnthza2dgLguzjcKi8h4AGcm1M9RQaYonPc6mB8CgS"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:21:03.188Z",
+      "kind": "wallet",
+      "details": {
+        "action": "fund",
+        "amountSol": 1.2,
+        "method": "treasury-transfer",
+        "name": "matrix-wallet-36000226"
+      },
+      "signature": "3QsWhBzppr5cztmx3sSiP34M3BRG9crFMDXhq7ee9NBLV7nQuiJFRM6JG6A5sWMn4SviXeTeHN5LuWWG22SecTF8"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:21:26.646Z",
+      "kind": "token",
+      "details": {
+        "action": "mint-demo",
+        "amountRaw": "5000000",
+        "amountUi": 5,
+        "authority": "matrix-wallet-36000226",
+        "decimals": 6,
+        "mint": "G8YfyauigXhYydQonxWcQLXzD5zeSRgEcDPLWeZPsjPm"
+      },
+      "signature": "3tdGCv3BPH6Lm49RUvT4yi5MFxpQoY8U7zA6cEWzKsKT3vj5isShLBTtGuYVH5ei16Wd2KJXenm1CxxE2y3MB73i"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:21:55.012Z",
+      "kind": "agent",
+      "details": {
+        "action": "create",
+        "ownerId": "matrix-owner-36000226",
+        "wallet": "matrix-agent-36000226"
+      },
+      "agent": "matrix-agent-36000226"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:22:25.636Z",
+      "kind": "agent",
+      "details": {
+        "action": "fund",
+        "amountSol": 0.6,
+        "ownerId": "matrix-owner-36000226"
+      },
+      "agent": "matrix-agent-36000226",
+      "signature": "25aivirfXZKGThDtEkTBxc1a8nS5VwKdRnShmm1v16t7FkfZUpyrBf6ZRABywqcBDCZFXasxBKb3cUNLZXqAA4AM"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:22:51.100Z",
+      "kind": "token",
+      "details": {
+        "action": "create-ata",
+        "mint": "G8YfyauigXhYydQonxWcQLXzD5zeSRgEcDPLWeZPsjPm",
+        "owner": "matrix-agent-36000226"
+      },
+      "signature": "4g4DkY93Aq75otYK1YxdDq64DkwCQFynKspunzgbfjxyDzMaAeYTdEegfL1wRUC5oZ9BwcUE7GN9g45kJKLn6Gwr"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:23:03.312Z",
+      "kind": "transfer",
+      "details": {
+        "amountSol": 0.05,
+        "from": "matrix-wallet-36000226",
+        "to": "274EieZF615x8XD6yENwpdTNvUWGJmsN8Z5EBYuiSAzP",
+        "type": "sol"
+      },
+      "signature": "5JvaiKFAuJmeqxf8kkXTi9EdVnzMcNPRFHT2dB6UfGDrHbCRAZFpHgDyGEGZneWohqcAdZvh2erxNa7CARUzViE9"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:23:16.015Z",
+      "kind": "transfer",
+      "details": {
+        "amountRaw": "1000000",
+        "amountUi": 1,
+        "from": "matrix-wallet-36000226",
+        "mint": "G8YfyauigXhYydQonxWcQLXzD5zeSRgEcDPLWeZPsjPm",
+        "to": "274EieZF615x8XD6yENwpdTNvUWGJmsN8Z5EBYuiSAzP",
+        "type": "spl"
+      },
+      "signature": "eb2V1p4GM6GzSCCjAZmjspvY799eJeCsurC9rMstLPQKG1Whwi7wzR3MGu5U3XbbFJNEe2KjT2UVhh5x2rdvXXX"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:24:19.778Z",
+      "kind": "policy",
+      "details": {
+        "action": "validate-intent",
+        "agent": "matrix-agent-36000226",
+        "intentType": "transfer-sol"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:24:43.456Z",
+      "kind": "agent",
+      "details": {
+        "action": "run",
+        "outcomes": 1,
+        "strategy": "memo-heartbeat"
+      },
+      "agent": "matrix-agent-36000226",
+      "signature": "2AmALPHUw11tQinCdnqPW6B9SwnTw47aMBxsnMiCdLeEuibV16b39QxhrEzWPVu6wbgEruzrkh4PaiTMpiPhF3oj"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:25:04.559Z",
+      "kind": "monitor",
+      "details": {
+        "action": "overview",
+        "rows": 4
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:28:39.779Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:28:49.071Z",
+      "kind": "config",
+      "details": {
+        "action": "show"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:28:59.713Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:29:10.496Z",
+      "kind": "wallet",
+      "details": {
+        "action": "create",
+        "name": "matrix-wallet-36508668",
+        "publicKey": "BPmt6baeGgBjockNLZ6wMXi7oKDvVTfEGfvaRoonUt8s"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:29:41.200Z",
+      "kind": "wallet",
+      "details": {
+        "action": "fund",
+        "amountSol": 1.2,
+        "method": "treasury-transfer",
+        "name": "matrix-wallet-36508668"
+      },
+      "signature": "3GjAcBLYtKB2ZNqWjHb6m5S7LC6VeCDbNjyxqjq1oFUosfotw3S6gsGEZisx2TQLWkR8SEVjwE3ByCoUhyP4oVm7"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:30:05.449Z",
+      "kind": "token",
+      "details": {
+        "action": "mint-demo",
+        "amountRaw": "5000000",
+        "amountUi": 5,
+        "authority": "matrix-wallet-36508668",
+        "decimals": 6,
+        "mint": "F9oEmVnC5gQuE1Pc9kfjSBh12QHArYCnSCeFqWEGjmJw"
+      },
+      "signature": "65FDUMGT9ZNjjQZXThkjiv4PhUCTtB1KAZk8cAf3Rm94f7sTVtZ9wcS716SJr951Cxope1HeAoWcBRc7nu78T8dW"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:30:38.979Z",
+      "kind": "agent",
+      "details": {
+        "action": "create",
+        "ownerId": "matrix-owner-36508668",
+        "wallet": "matrix-agent-36508668"
+      },
+      "agent": "matrix-agent-36508668"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:31:12.729Z",
+      "kind": "agent",
+      "details": {
+        "action": "fund",
+        "amountSol": 0.6,
+        "ownerId": "matrix-owner-36508668"
+      },
+      "agent": "matrix-agent-36508668",
+      "signature": "5i7Jd5PhfEt5aV4VPZ1M5eoyjvAJA496VQtntkVS6wZoK822izryeJByZ9nEJKqbVekoKBoQs7rwxcaWfmazrDGR"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:31:36.675Z",
+      "kind": "token",
+      "details": {
+        "action": "create-ata",
+        "mint": "F9oEmVnC5gQuE1Pc9kfjSBh12QHArYCnSCeFqWEGjmJw",
+        "owner": "matrix-agent-36508668"
+      },
+      "signature": "3hKFCLuNmEB7YjaMhQTzvCvA4rd5yNxXU8Vna8b82zZ9BXHMaZGB6C3NN1iCoER7SWsPiX55n1quVznpHtWGJU8f"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:31:48.153Z",
+      "kind": "transfer",
+      "details": {
+        "amountSol": 0.05,
+        "from": "matrix-wallet-36508668",
+        "to": "CotL4eLEUqsuFgPP7k95KtrBdsTgArr3dUedHyySh9yk",
+        "type": "sol"
+      },
+      "signature": "5bN39QYE3rEdsVZvVJ5J2HYHZUKVJgaBVTcMDdfdkrDyaYPCBmv4bwuzaZ2Dx1tZPYieo9eQWQZBiLTrgRGdop1U"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:32:00.317Z",
+      "kind": "transfer",
+      "details": {
+        "amountRaw": "1000000",
+        "amountUi": 1,
+        "from": "matrix-wallet-36508668",
+        "mint": "F9oEmVnC5gQuE1Pc9kfjSBh12QHArYCnSCeFqWEGjmJw",
+        "to": "CotL4eLEUqsuFgPP7k95KtrBdsTgArr3dUedHyySh9yk",
+        "type": "spl"
+      },
+      "signature": "4b7wS1ZuBaTeeeNMxAfFogRqNBg6xvNQzD4jPam8Aw55QQjtQrGuci6j6BxAEh5xcx1VHRJagZaJiZnRRn7pLSMK"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:32:54.164Z",
+      "kind": "policy",
+      "details": {
+        "action": "validate-intent",
+        "agent": "matrix-agent-36508668",
+        "intentType": "transfer-sol"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:33:13.226Z",
+      "kind": "agent",
+      "details": {
+        "action": "run",
+        "outcomes": 1,
+        "strategy": "memo-heartbeat"
+      },
+      "agent": "matrix-agent-36508668",
+      "signature": "kaxKxD23TTkUQKT66n63aesAcRkbwtdLpEhsa9QXEZaHh4TVAKSURXxTRCrunRgdYEbeESetq1hok3pTo5JwoEX"
+    },
+    {
+      "createdAtIso": "2026-03-12T17:33:33.032Z",
+      "kind": "monitor",
+      "details": {
+        "action": "overview",
+        "rows": 6
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:38:26.444Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:38:36.462Z",
+      "kind": "config",
+      "details": {
+        "action": "show"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:38:46.738Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:38:56.425Z",
+      "kind": "wallet",
+      "details": {
+        "action": "create",
+        "name": "matrix-wallet-37096725",
+        "publicKey": "Bd3L4kyzAkofUqxoSZpKZh64soSvroFWNz1uRjY9b3N"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:41:01.163Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:41:09.983Z",
+      "kind": "config",
+      "details": {
+        "action": "show"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:41:19.932Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:41:29.758Z",
+      "kind": "wallet",
+      "details": {
+        "action": "create",
+        "name": "matrix-wallet-37251297",
+        "publicKey": "Ak5xhYv1UxqHS98A6KUnSmw1SsukXJgKR3JcPuJ8VYfm"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:43:52.232Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:44:01.789Z",
+      "kind": "config",
+      "details": {
+        "action": "show"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:44:11.420Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:44:20.327Z",
+      "kind": "wallet",
+      "details": {
+        "action": "create",
+        "name": "matrix-wallet-37420137",
+        "publicKey": "CrCRcoRD3iYUswgJYimCnxdrJNN4jGwCmb6HpkXxpApA"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:47:41.488Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:47:50.728Z",
+      "kind": "config",
+      "details": {
+        "action": "show"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:47:59.784Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-12T17:48:09.382Z",
+      "kind": "wallet",
+      "details": {
+        "action": "create",
+        "name": "matrix-wallet-37650148",
+        "publicKey": "8f5FSruyN3gWRhhxLZpM8tFWBx5m1MdN6i4CK45VFdri"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:40:56.993Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:41:59.885Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:42:00.033Z",
+      "kind": "config",
+      "details": {
+        "action": "show"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:42:00.097Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:42:59.347Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:43:08.436Z",
+      "kind": "config",
+      "details": {
+        "action": "show"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:43:17.571Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:43:28.147Z",
+      "kind": "wallet",
+      "details": {
+        "action": "create",
+        "name": "matrix-wallet-05765870",
+        "publicKey": "BhpMANVcjBKeqUWsDYz3MGNk4jaTW4wji4YNZPPXuQNN"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:43:58.603Z",
+      "kind": "wallet",
+      "details": {
+        "action": "fund",
+        "amountSol": 0.4,
+        "method": "treasury-transfer",
+        "name": "matrix-wallet-05765870"
+      },
+      "signature": "2v3sKtvZjwdGKL8NfWaVmX7m5U62jsvuXEFQp8ivzPAKHeP8DHrejcdfEYd8LjoZ1AaPhH65CinGUeNM5HYwg9zj"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:44:30.098Z",
+      "kind": "token",
+      "details": {
+        "action": "mint-demo",
+        "amountRaw": "5000000",
+        "amountUi": 5,
+        "authority": "matrix-wallet-05765870",
+        "decimals": 6,
+        "mint": "EY7QxyN9iCHTFgVRjCmSoJ9x4ANsitd1b8TMeJF1afnA"
+      },
+      "signature": "3erEgVZY3g7GXoh2dcqXN9iudZPcpxf5b3roVPgPocLWSc1LqqCMXP9eEYzJ2pxfjGE5jqoLSzP3x6vmSCHbSzWe"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:45:08.075Z",
+      "kind": "agent",
+      "details": {
+        "action": "create",
+        "ownerId": "matrix-owner-05765870",
+        "wallet": "matrix-agent-05765870"
+      },
+      "agent": "matrix-agent-05765870"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:45:36.869Z",
+      "kind": "agent",
+      "details": {
+        "action": "fund",
+        "amountSol": 0.2,
+        "ownerId": "matrix-owner-05765870"
+      },
+      "agent": "matrix-agent-05765870",
+      "signature": "38hvN6VZCBSC6GhYFHAqrtAGMLtdAcrjiVDDDsEwXuraaXj1PYkXkD1F9DWEyJTpy9ydahKGNEohKpmkcRkbsm7j"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:45:58.503Z",
+      "kind": "token",
+      "details": {
+        "action": "create-ata",
+        "mint": "EY7QxyN9iCHTFgVRjCmSoJ9x4ANsitd1b8TMeJF1afnA",
+        "owner": "matrix-agent-05765870"
+      },
+      "signature": "3gkZqwmNNuG7KZBRoHuSLQqaZG8CGR3c52svuHtZk4Wi6qtpMwVMz6dnaLAMRmb3BDcQEnD98HzmxZvtYmf1UkGb"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:46:09.993Z",
+      "kind": "transfer",
+      "details": {
+        "amountSol": 0.05,
+        "from": "matrix-wallet-05765870",
+        "to": "4ftj43b2UqEM21R19tGxMSba7o6NQ4k9wyXrZW9RkXEb",
+        "type": "sol"
+      },
+      "signature": "5CS6Akz6y4jN8YythDShvPiMPKwp4jciGTcHGXL7ombwaFTK2xrwLWsN4a8P9opsqXVtWM7zQaNsqHUVVGoWC6ZF"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:46:23.770Z",
+      "kind": "transfer",
+      "details": {
+        "amountRaw": "1000000",
+        "amountUi": 1,
+        "from": "matrix-wallet-05765870",
+        "mint": "EY7QxyN9iCHTFgVRjCmSoJ9x4ANsitd1b8TMeJF1afnA",
+        "to": "4ftj43b2UqEM21R19tGxMSba7o6NQ4k9wyXrZW9RkXEb",
+        "type": "spl"
+      },
+      "signature": "3g7iqcGEfEmn5RvE3QQ8pqwhcvtTvxAnvXTNvJoYhbaqiPzxa4WUBcRNKRyXGNhVfyZ98tquidErSqr91umSDNvh"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:47:27.235Z",
+      "kind": "policy",
+      "details": {
+        "action": "validate-intent",
+        "agent": "matrix-agent-05765870",
+        "intentType": "transfer-sol"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:47:51.637Z",
+      "kind": "agent",
+      "details": {
+        "action": "run",
+        "outcomes": 1,
+        "strategy": "memo-heartbeat"
+      },
+      "agent": "matrix-agent-05765870",
+      "signature": "2qjKCFNqyLJBX11pHVwat8Eg2NsZ26n3LhDGyxc3rtEtCX6LSosNsaZHFba1aERuBYZQR62cPrNSQtW85vqPgDf4"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:48:17.552Z",
+      "kind": "monitor",
+      "details": {
+        "action": "overview",
+        "rows": 12
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:50:53.107Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:51:00.600Z",
+      "kind": "config",
+      "details": {
+        "action": "show"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:51:09.210Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:51:16.918Z",
+      "kind": "wallet",
+      "details": {
+        "action": "create",
+        "name": "matrix-wallet-06244796",
+        "publicKey": "92DyA8g2wsRt5nzL5xzsy3HiriJ1oTQftJAtXAW9jtmY"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:51:42.532Z",
+      "kind": "wallet",
+      "details": {
+        "action": "fund",
+        "amountSol": 0.4,
+        "method": "treasury-transfer",
+        "name": "matrix-wallet-06244796"
+      },
+      "signature": "R2oZD488VGNnVhq1aXBeeQm7kgYRN65bo1rq1MxeKZ28AnJVZpSQ2n1yX5AkXk2cUvHRgqSM7N82BRCkeodMKRo"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:52:02.313Z",
+      "kind": "token",
+      "details": {
+        "action": "mint-demo",
+        "amountRaw": "5000000",
+        "amountUi": 5,
+        "authority": "matrix-wallet-06244796",
+        "decimals": 6,
+        "mint": "Csk2FpoNAfox79f3Td9R855KNtWx8VnA4XtqRbo9WTgP"
+      },
+      "signature": "32CG979hypvCJ9BTEN75avcSRCNkBHHmM3RRY6FLZaMsrtHgJVnaiBpXWwXFW84NGZ699di3bUsK8VkWmHdnuP3B"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:52:28.564Z",
+      "kind": "agent",
+      "details": {
+        "action": "create",
+        "ownerId": "matrix-owner-06244796",
+        "wallet": "matrix-agent-06244796"
+      },
+      "agent": "matrix-agent-06244796"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:52:53.898Z",
+      "kind": "agent",
+      "details": {
+        "action": "fund",
+        "amountSol": 0.2,
+        "ownerId": "matrix-owner-06244796"
+      },
+      "agent": "matrix-agent-06244796",
+      "signature": "ZitLtT2JH75WMawx1n9WHcNV2eomhpVqWjMR1E9T85srQ9c4c21ZxSedJCNRSmFah3Em8TrDcpxrDmbVXHdAQor"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:53:12.164Z",
+      "kind": "token",
+      "details": {
+        "action": "create-ata",
+        "mint": "Csk2FpoNAfox79f3Td9R855KNtWx8VnA4XtqRbo9WTgP",
+        "owner": "matrix-agent-06244796"
+      },
+      "signature": "4H9C3WeJYmh6mHPTCNqhfaiPTFk5JUBr8JDgNFnxwUxUSGdzD31oBcMNhefVzdVuzHP8KY7fRpFwo7x3UPqFYysS"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:53:23.120Z",
+      "kind": "transfer",
+      "details": {
+        "amountSol": 0.05,
+        "from": "matrix-wallet-06244796",
+        "to": "3VoomQsyLDrrRiJGxuFTqC1JxbYXLSWmQ91UpUEcCQ2C",
+        "type": "sol"
+      },
+      "signature": "4JPT6pLwgxtb7MU7JabPX77Hcork2MB3QpHdHDNfjLBrTYuQdQyG47HpQm2byMPzr4EUiysefnvS5Z2ApgfNrCCE"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:53:33.977Z",
+      "kind": "transfer",
+      "details": {
+        "amountRaw": "1000000",
+        "amountUi": 1,
+        "from": "matrix-wallet-06244796",
+        "mint": "Csk2FpoNAfox79f3Td9R855KNtWx8VnA4XtqRbo9WTgP",
+        "to": "3VoomQsyLDrrRiJGxuFTqC1JxbYXLSWmQ91UpUEcCQ2C",
+        "type": "spl"
+      },
+      "signature": "5CUQXtiv7CQTvmE4jeDBg28r4EHx3HrBkGuzzqocMUWMmzdK6HqMGLF4sVRXQLs4cVQEYhxwtuYP8a3Fg3iBe2Dd"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:54:20.051Z",
+      "kind": "policy",
+      "details": {
+        "action": "validate-intent",
+        "agent": "matrix-agent-06244796",
+        "intentType": "transfer-sol"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:54:37.403Z",
+      "kind": "agent",
+      "details": {
+        "action": "run",
+        "outcomes": 1,
+        "strategy": "memo-heartbeat"
+      },
+      "agent": "matrix-agent-06244796",
+      "signature": "3ah3qbFoxcuoVeSw1sypEoLRCVc47tWmJrR7jAg8myTAhAWGz6sN4zwdQE8tTSSsfCc87qjcKTa1C73PsDGWm7Tz"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:54:56.682Z",
+      "kind": "monitor",
+      "details": {
+        "action": "overview",
+        "rows": 14
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:58:33.806Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:58:41.154Z",
+      "kind": "config",
+      "details": {
+        "action": "show"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:58:49.999Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:58:59.380Z",
+      "kind": "wallet",
+      "details": {
+        "action": "create",
+        "name": "matrix-wallet-06706488",
+        "publicKey": "FZ35MTKd76oE6YwV7gM8EdkiLamhhJ4QGrFJzTLyubLT"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T12:59:29.733Z",
+      "kind": "wallet",
+      "details": {
+        "action": "fund",
+        "amountSol": 0.4,
+        "method": "treasury-transfer",
+        "name": "matrix-wallet-06706488"
+      },
+      "signature": "2vU92y6XsMQzSM5hwV1yAUDg81YU4m6fo4fW3KBzAA4zjGQtFbG5NNSBuH5atfnceHb5dZYt9S6RhWfWk6bpG2ae"
+    },
+    {
+      "createdAtIso": "2026-03-13T12:59:49.225Z",
+      "kind": "token",
+      "details": {
+        "action": "mint-demo",
+        "amountRaw": "5000000",
+        "amountUi": 5,
+        "authority": "matrix-wallet-06706488",
+        "decimals": 6,
+        "mint": "2QiyiUsLjgpNGYnvh9N3r5KSeNCTTv6FhudZ9nnxiZQV"
+      },
+      "signature": "3ECRLQBH1zPH2EkN5on2M2n8giqLQKUArXYGAr3TXa7zDyFnvJC7PEKMPb5Atv3tB2yRxvRzMV2mLNH4gPNqGKEK"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:00:15.489Z",
+      "kind": "agent",
+      "details": {
+        "action": "create",
+        "ownerId": "matrix-owner-06706488",
+        "wallet": "matrix-agent-06706488"
+      },
+      "agent": "matrix-agent-06706488"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:00:46.693Z",
+      "kind": "agent",
+      "details": {
+        "action": "fund",
+        "amountSol": 0.2,
+        "ownerId": "matrix-owner-06706488"
+      },
+      "agent": "matrix-agent-06706488",
+      "signature": "cV8xpU62VGQbeaLQsehVKLRWTv1kFswJ1PrrV1oLMttThLPxvewvLrH8zArv36VWKD4KufZvrQcsS415YzQq55z"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:01:05.092Z",
+      "kind": "token",
+      "details": {
+        "action": "create-ata",
+        "mint": "2QiyiUsLjgpNGYnvh9N3r5KSeNCTTv6FhudZ9nnxiZQV",
+        "owner": "matrix-agent-06706488"
+      },
+      "signature": "m4Ft2GzAHddzu58garLhmYYUkNkPSCZSRb3zy3KAaCXPPE35pP2qnNLkgPMoAkCp3K1SYPyDMHBMjNf4GBMPzbg"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:01:20.532Z",
+      "kind": "transfer",
+      "details": {
+        "amountSol": 0.05,
+        "from": "matrix-wallet-06706488",
+        "to": "4M7cFzowLXGQi4BDevBP7oWTC4CfdT2VcWDJxDBvLZSH",
+        "type": "sol"
+      },
+      "signature": "4j7GiR4qoYt6ZanPWVY5XLvXpUYoyWk3gmhgRLkjopTFe73XF9cyoGyV85sSDhLshy6z199jozd1o7Xow92orH8B"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:01:31.171Z",
+      "kind": "transfer",
+      "details": {
+        "amountRaw": "1000000",
+        "amountUi": 1,
+        "from": "matrix-wallet-06706488",
+        "mint": "2QiyiUsLjgpNGYnvh9N3r5KSeNCTTv6FhudZ9nnxiZQV",
+        "to": "4M7cFzowLXGQi4BDevBP7oWTC4CfdT2VcWDJxDBvLZSH",
+        "type": "spl"
+      },
+      "signature": "sQoBCtReJWk7jgwHiimhaan7vnXEdSuNdv3APbpgTMpUj8BHrqjEXZsHJy26j3vzAi4sV9PAki6JfQRFEKb3tgN"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:02:17.583Z",
+      "kind": "policy",
+      "details": {
+        "action": "validate-intent",
+        "agent": "matrix-agent-06706488",
+        "intentType": "transfer-sol"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T13:02:41.698Z",
+      "kind": "agent",
+      "details": {
+        "action": "run",
+        "outcomes": 1,
+        "strategy": "memo-heartbeat"
+      },
+      "agent": "matrix-agent-06706488",
+      "signature": "5YfnZn2j7XaZgCvpkCixzmqo23TbjGyJ8VbucKAm9pPHhGhBCNxmGtN9RsYdJEYZpjb8mrLmv71GoYz8vhzpTiAY"
+    },
+    {
+      "createdAtIso": "2026-03-13T13:03:02.097Z",
+      "kind": "monitor",
+      "details": {
+        "action": "overview",
+        "rows": 16
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T13:06:31.587Z",
+      "kind": "agent",
+      "details": {
+        "action": "stop"
+      },
+      "agent": "matrix-agent-06706488"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:32:56.178Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T17:33:04.786Z",
+      "kind": "config",
+      "details": {
+        "action": "show"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T17:33:13.828Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T17:33:21.370Z",
+      "kind": "wallet",
+      "details": {
+        "action": "create",
+        "name": "matrix-wallet-23167738",
+        "publicKey": "93BtAU7rsMQVDULHeEP3ECCPjDV6ibpjZmaxFSrQpYYY"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T17:33:46.638Z",
+      "kind": "wallet",
+      "details": {
+        "action": "fund",
+        "amountSol": 0.4,
+        "method": "treasury-transfer",
+        "name": "matrix-wallet-23167738"
+      },
+      "signature": "2AbgRuBBVcUX4VeRyNK9Go3hMJi2JkXcNwJ13Hd7LmZ7gn4cKckJdNwqXVGeLgTG4i3xxAMY8vyDZvtTt54qcbQp"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:34:05.198Z",
+      "kind": "token",
+      "details": {
+        "action": "mint-demo",
+        "amountRaw": "5000000",
+        "amountUi": 5,
+        "authority": "matrix-wallet-23167738",
+        "decimals": 6,
+        "mint": "68euWHM8iYPbTx4h3hPV5vPfhE3EqEh6DsN4kmVSpn56"
+      },
+      "signature": "TUBCN2Z6wqevwe4QBDzJdoxTa2zeGxYZH6EnYMhZdEeVYwLgwVnwUp6oMwRzRRrWKceD8tcQS2RUTnyVTgmNeyu"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:34:26.915Z",
+      "kind": "agent",
+      "details": {
+        "action": "create",
+        "ownerId": "matrix-owner-23167738",
+        "wallet": "matrix-agent-23167738"
+      },
+      "agent": "matrix-agent-23167738"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:34:49.838Z",
+      "kind": "agent",
+      "details": {
+        "action": "fund",
+        "amountSol": 0.2,
+        "ownerId": "matrix-owner-23167738"
+      },
+      "agent": "matrix-agent-23167738",
+      "signature": "3CYF3C93kAE3Yp78iEVkzeTYpReanDJ5oZthbZm2afzLB1rdAKDFoowy5kmNoohdnqYGiMHxobPSLp2Mgzvus3Hh"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:35:07.540Z",
+      "kind": "token",
+      "details": {
+        "action": "create-ata",
+        "mint": "68euWHM8iYPbTx4h3hPV5vPfhE3EqEh6DsN4kmVSpn56",
+        "owner": "matrix-agent-23167738"
+      },
+      "signature": "3CBiSQFtcv1RqMbzS4o1S2u7ddkQLXAeLQvTJ5ZVzEaPCY2i4kzCCzYhFkiuWMffZzRwxahVP92tvEGB16AYVHaW"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:35:17.804Z",
+      "kind": "transfer",
+      "details": {
+        "amountSol": 0.05,
+        "from": "matrix-wallet-23167738",
+        "to": "2n66TffpHKWYK9y7burxLnyEiMcirgKhQFUo1BPuuzYU",
+        "type": "sol"
+      },
+      "signature": "LqHmqrHCDpbceTT7B3YPwMveUFJeF8c6Siv4ePHUx85hc8G1S2S4ngzEUQ48EnyAq2JVumsrXRH28N22UqEaYRC"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:35:27.241Z",
+      "kind": "transfer",
+      "details": {
+        "amountRaw": "1000000",
+        "amountUi": 1,
+        "from": "matrix-wallet-23167738",
+        "mint": "68euWHM8iYPbTx4h3hPV5vPfhE3EqEh6DsN4kmVSpn56",
+        "to": "2n66TffpHKWYK9y7burxLnyEiMcirgKhQFUo1BPuuzYU",
+        "type": "spl"
+      },
+      "signature": "5D8p3U1HfGQ3mkJtMmZQSh7b99KmyzkEpu9HpcKo6WUXKqTQwwDUCKuKS29XvTDQnRLXN9KdefCAgVGzQ3LzkdyV"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:36:09.099Z",
+      "kind": "policy",
+      "details": {
+        "action": "validate-intent",
+        "agent": "matrix-agent-23167738",
+        "intentType": "transfer-sol"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T17:36:25.065Z",
+      "kind": "agent",
+      "details": {
+        "action": "run",
+        "outcomes": 1,
+        "strategy": "memo-heartbeat"
+      },
+      "agent": "matrix-agent-23167738",
+      "signature": "61CfGu4T5e7aG8QTVgDPBhDBa56a5UUzbMuHHYJA4DgDePNS2sZDgGGx1qjidJ1R4VvUv4fkeTkheF18iMZKvCxd"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:36:46.333Z",
+      "kind": "monitor",
+      "details": {
+        "action": "overview",
+        "rows": 26
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T17:38:25.010Z",
+      "kind": "agent",
+      "details": {
+        "action": "stop"
+      },
+      "agent": "matrix-agent-23167738"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:39:16.328Z",
+      "kind": "config",
+      "details": {
+        "action": "init"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T17:39:22.985Z",
+      "kind": "config",
+      "details": {
+        "action": "show"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T17:39:31.050Z",
+      "kind": "doctor",
+      "details": {
+        "checks": 11
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T17:39:38.213Z",
+      "kind": "wallet",
+      "details": {
+        "action": "create",
+        "name": "matrix-wallet-23549042",
+        "publicKey": "5LW1QxEnJgY4Wn7D22yEbqrJwBDGCqYJT2zsvxCqq1A3"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T17:40:01.908Z",
+      "kind": "wallet",
+      "details": {
+        "action": "fund",
+        "amountSol": 0.4,
+        "method": "treasury-transfer",
+        "name": "matrix-wallet-23549042"
+      },
+      "signature": "2UG3M5GWhsiAaNTLVLizvqBVYd4teHQjogWHx3YVnY2VgF1vPu3TijHfHEe277mwy5iDCPiVbeAxSpYFdrH97Phs"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:40:21.152Z",
+      "kind": "token",
+      "details": {
+        "action": "mint-demo",
+        "amountRaw": "5000000",
+        "amountUi": 5,
+        "authority": "matrix-wallet-23549042",
+        "decimals": 6,
+        "mint": "9fn7kgx6SuiiZNZBT1Ta4fjhBENfXY26qNq1jpHqv3Ru"
+      },
+      "signature": "3F6vRLvr8JCRQmHBnEPmUcPhRHrUzfo744Sxf5gZWfnigzqEUtzFQzpA1UuYsNY6mCcycWQscMKqyq1jbUJf3qdF"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:40:42.164Z",
+      "kind": "agent",
+      "details": {
+        "action": "create",
+        "ownerId": "matrix-owner-23549042",
+        "wallet": "matrix-agent-23549042"
+      },
+      "agent": "matrix-agent-23549042"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:41:05.985Z",
+      "kind": "agent",
+      "details": {
+        "action": "fund",
+        "amountSol": 0.2,
+        "ownerId": "matrix-owner-23549042"
+      },
+      "agent": "matrix-agent-23549042",
+      "signature": "2YEaRFQq9NRnFCeFdDuEfT6zeiePaV4dqmAFLVnnoxCtdfxtCucXFpCR6HMoqX2egLgY5d9qY9RFDsm4BM3wECDa"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:41:21.736Z",
+      "kind": "token",
+      "details": {
+        "action": "create-ata",
+        "mint": "9fn7kgx6SuiiZNZBT1Ta4fjhBENfXY26qNq1jpHqv3Ru",
+        "owner": "matrix-agent-23549042"
+      },
+      "signature": "65ErJ663zLDj1Ndr9MbbMGxXitGpgbUbTSjZa4Javy7LFuWFncBHejEpKMsRzUJQ7h9zUBPfxX9sv9gXEerXgiXU"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:41:31.025Z",
+      "kind": "transfer",
+      "details": {
+        "amountSol": 0.05,
+        "from": "matrix-wallet-23549042",
+        "to": "ETRVg7zueeBnBrkxK1Aj57taBL41xty2zHaCjahR4uiz",
+        "type": "sol"
+      },
+      "signature": "3d2GCNSPjaHcqA8cdzFzXvY5VWrccgXNyNFpgvwAkjSh59RuNBsGhTnvfUKJndnHD53GgqZMicqueUpbRSMq5YFb"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:41:40.455Z",
+      "kind": "transfer",
+      "details": {
+        "amountRaw": "1000000",
+        "amountUi": 1,
+        "from": "matrix-wallet-23549042",
+        "mint": "9fn7kgx6SuiiZNZBT1Ta4fjhBENfXY26qNq1jpHqv3Ru",
+        "to": "ETRVg7zueeBnBrkxK1Aj57taBL41xty2zHaCjahR4uiz",
+        "type": "spl"
+      },
+      "signature": "2RiCAsjDmL6Fjx2Zy9VYeJ6YAQSmLHJmmQPwiLYFwxyL6LmTjT2g2aP3YRciFKWQdzxknQdXgA9zboS9PoRXdkXi"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:42:19.821Z",
+      "kind": "policy",
+      "details": {
+        "action": "validate-intent",
+        "agent": "matrix-agent-23549042",
+        "intentType": "transfer-sol"
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T17:42:34.716Z",
+      "kind": "agent",
+      "details": {
+        "action": "run",
+        "outcomes": 1,
+        "strategy": "memo-heartbeat"
+      },
+      "agent": "matrix-agent-23549042",
+      "signature": "3o5fpxeL4nheWWXiGwoim1CsSmb5duAyTXE71qwSSEYrLFHdGsPMGXhzEjQ4RCgzRxXKU6qqazUPEERvAF6rJins"
+    },
+    {
+      "createdAtIso": "2026-03-13T17:42:56.345Z",
+      "kind": "monitor",
+      "details": {
+        "action": "overview",
+        "rows": 29
+      }
+    },
+    {
+      "createdAtIso": "2026-03-13T17:44:27.513Z",
+      "kind": "agent",
+      "details": {
+        "action": "stop"
+      },
+      "agent": "matrix-agent-23549042"
+    }
+  ]
+}

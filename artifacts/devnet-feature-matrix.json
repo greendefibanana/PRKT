@@ -1,0 +1,272 @@
+{
+  "advanced": {
+    "agentId": "matrix-advanced-23549042",
+    "commitment": "6acdb8fbceb174cc4648f5b6709eeb2517e8bbf17d00ffb1420dfb910626ce86",
+    "policyAccountSignature": "5QxX18MyX8WLMspMittETf3jBxmyNw3h4rxa2LrAu9LY9vCMGXFjTg5NRWs99T57okYHf5FAiw6Lsx8R51kTHJf4",
+    "proofSignature": "5K6JgndWx3mwjXjrEZDLhJDfmq8czwmH3oXsGTCupMQAHpSWT6qGnKGdDFUELAZQFrU1g2FMrtgDYBwvXbGMNto5",
+    "sessionId": "49dd8cdf-e52a-4e06-b0bc-5135f1944de8",
+    "sessionSignature": "4kK9BGFspR1VT5zyChiAe13G7YnUhLtfW58z4VziXK3s4RQFea65ddMrRzV9BQQE3KmP581TrYpFwFzA4t4JVPdz"
+  },
+  "cluster": "devnet",
+  "generatedAtIso8601": "2026-03-13T17:44:27.592Z",
+  "names": {
+    "agent": "matrix-agent-23549042",
+    "gaslessAgent": "matrix-gasless-23549042",
+    "owner": "matrix-owner-23549042",
+    "wallet": "matrix-wallet-23549042"
+  },
+  "steps": [
+    {
+      "category": "preflight",
+      "detail": "https://devnet.helius-rpc.com/?api-key=bd340d93-b7d3-4ac3-9c55-f861224149f2",
+      "name": "cluster",
+      "status": "ok"
+    },
+    {
+      "category": "preflight",
+      "detail": "C:\\Users\\ezevi\\Documents\\PRKT\\.prkt-devnet-matrix",
+      "name": "cli-home",
+      "status": "ok"
+    },
+    {
+      "category": "cli",
+      "detail": "C:\\Users\\ezevi\\Documents\\PRKT\\.prkt-devnet-matrix",
+      "name": "init",
+      "status": "ok"
+    },
+    {
+      "category": "cli",
+      "detail": "cluster=devnet",
+      "name": "config-show",
+      "status": "ok"
+    },
+    {
+      "category": "cli",
+      "detail": "11 checks",
+      "name": "doctor",
+      "status": "ok"
+    },
+    {
+      "category": "wallet",
+      "detail": "5LW1QxEnJgY4Wn7D22yEbqrJwBDGCqYJT2zsvxCqq1A3",
+      "name": "create",
+      "status": "ok"
+    },
+    {
+      "category": "wallet",
+      "detail": "listed wallets",
+      "name": "list",
+      "status": "ok"
+    },
+    {
+      "category": "wallet",
+      "detail": "matrix-wallet-23549042",
+      "name": "show",
+      "status": "ok"
+    },
+    {
+      "category": "wallet",
+      "detail": "0.4 SOL requested",
+      "name": "fund",
+      "status": "ok"
+    },
+    {
+      "category": "wallet",
+      "detail": "matrix-wallet-23549042",
+      "name": "balance",
+      "status": "ok"
+    },
+    {
+      "category": "token",
+      "detail": "9fn7kgx6SuiiZNZBT1Ta4fjhBENfXY26qNq1jpHqv3Ru",
+      "name": "mint-demo",
+      "status": "ok"
+    },
+    {
+      "category": "token",
+      "detail": "wallet ATA ensured",
+      "name": "create-ata-wallet",
+      "status": "ok"
+    },
+    {
+      "category": "token",
+      "detail": "9fn7kgx6SuiiZNZBT1Ta4fjhBENfXY26qNq1jpHqv3Ru",
+      "name": "balance-spl-wallet",
+      "status": "ok"
+    },
+    {
+      "category": "agent",
+      "detail": "ETRVg7zueeBnBrkxK1Aj57taBL41xty2zHaCjahR4uiz",
+      "name": "create",
+      "status": "ok"
+    },
+    {
+      "category": "agent",
+      "detail": "listed agents",
+      "name": "list",
+      "status": "ok"
+    },
+    {
+      "category": "agent",
+      "detail": "matrix-agent-23549042",
+      "name": "show",
+      "status": "ok"
+    },
+    {
+      "category": "agent",
+      "detail": "0.2 SOL requested",
+      "name": "fund",
+      "status": "ok"
+    },
+    {
+      "category": "agent",
+      "detail": "matrix-agent-23549042",
+      "name": "balance",
+      "status": "ok"
+    },
+    {
+      "category": "token",
+      "detail": "agent ATA ensured",
+      "name": "create-ata-agent",
+      "status": "ok"
+    },
+    {
+      "category": "wallet",
+      "detail": "to ETRVg7zueeBnBrkxK1Aj57taBL41xty2zHaCjahR4uiz",
+      "name": "transfer-sol",
+      "status": "ok"
+    },
+    {
+      "category": "token",
+      "detail": "mint 9fn7kgx6SuiiZNZBT1Ta4fjhBENfXY26qNq1jpHqv3Ru",
+      "name": "transfer-spl",
+      "status": "ok"
+    },
+    {
+      "category": "policy",
+      "detail": "listed presets",
+      "name": "presets",
+      "status": "ok"
+    },
+    {
+      "category": "policy",
+      "detail": "matrix-agent-23549042",
+      "name": "show",
+      "status": "ok"
+    },
+    {
+      "category": "policy",
+      "detail": "guarded-live",
+      "name": "set-preset-live",
+      "status": "ok"
+    },
+    {
+      "category": "policy",
+      "detail": "auto-devnet-safe",
+      "name": "set-preset-default",
+      "status": "ok"
+    },
+    {
+      "category": "policy",
+      "detail": "temporary overrides applied",
+      "name": "set-limits",
+      "status": "ok"
+    },
+    {
+      "category": "policy",
+      "detail": "intent-1773423732949.json",
+      "name": "validate-intent",
+      "status": "ok"
+    },
+    {
+      "category": "policy",
+      "detail": "overrides cleared",
+      "name": "clear-overrides",
+      "status": "ok"
+    },
+    {
+      "category": "agent",
+      "detail": "memo-heartbeat",
+      "name": "run",
+      "status": "ok"
+    },
+    {
+      "category": "agent",
+      "detail": "matrix-agent-23549042",
+      "name": "logs",
+      "status": "ok"
+    },
+    {
+      "category": "monitor",
+      "detail": "overview/balances/txs/agents",
+      "name": "views",
+      "status": "ok"
+    },
+    {
+      "category": "audit",
+      "detail": "limit 50",
+      "name": "audit",
+      "status": "ok"
+    },
+    {
+      "category": "advanced",
+      "detail": "5K6JgndWx3mwjXjrEZDLhJDfmq8czwmH3oXsGTCupMQAHpSWT6qGnKGdDFUELAZQFrU1g2FMrtgDYBwvXbGMNto5",
+      "name": "memo-proof-compression-session",
+      "status": "ok"
+    },
+    {
+      "category": "advanced",
+      "detail": "verify-session + verify-tx",
+      "name": "cli-verification",
+      "status": "ok"
+    },
+    {
+      "category": "gasless",
+      "detail": "command completed",
+      "name": "kora-memo",
+      "status": "ok"
+    },
+    {
+      "category": "gasless",
+      "detail": "mock",
+      "name": "kora-mode",
+      "status": "ok"
+    },
+    {
+      "category": "security",
+      "detail": "command completed",
+      "name": "simulate-attack",
+      "status": "ok"
+    },
+    {
+      "category": "defi",
+      "detail": "command completed",
+      "name": "defi-suite-simulated",
+      "status": "ok"
+    },
+    {
+      "category": "demo",
+      "detail": "set PRKT_DEVNET_MATRIX_INCLUDE_STRESS=1 to run stress and multi-agent demos",
+      "name": "stress-agents",
+      "status": "skip"
+    },
+    {
+      "category": "custody",
+      "detail": "set PRKT_DEVNET_MATRIX_INCLUDE_EXPORTS=1 to exercise secret export commands",
+      "name": "sensitive-exports",
+      "status": "skip"
+    },
+    {
+      "category": "live",
+      "detail": "set PRKT_DEVNET_MATRIX_INCLUDE_PROTOCOL_LIVE=1 to attempt live protocol demos",
+      "name": "protocol-demos",
+      "status": "skip"
+    },
+    {
+      "category": "agent",
+      "detail": "matrix-agent-23549042",
+      "name": "stop",
+      "status": "ok"
+    }
+  ]
+}

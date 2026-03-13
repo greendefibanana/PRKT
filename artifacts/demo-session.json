@@ -1,0 +1,37 @@
+{
+  "cluster": "devnet",
+  "generatedAtIso8601": "2026-03-05T13:06:49.059Z",
+  "recommendedLiveRunOrder": [
+    "npm run wallet:devnet",
+    "npm run defi:lp:devnet",
+    "npm run simulate-attack",
+    "npm run stress:agents"
+  ],
+  "checks": [
+    {
+      "detail": "https://api.devnet.solana.com",
+      "ok": true,
+      "title": "RPC cluster is devnet"
+    },
+    {
+      "detail": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+      "ok": true,
+      "title": "USDC mint matches RPC cluster"
+    },
+    {
+      "detail": "missing",
+      "ok": false,
+      "title": "AGENT_PRIVATE_KEY is configured"
+    },
+    {
+      "detail": "raydium_lp.devnet.json",
+      "ok": false,
+      "title": "Raydium devnet LP config exists"
+    },
+    {
+      "detail": "npm run release:check",
+      "ok": true,
+      "title": "Command npm"
+    }
+  ]
+}
